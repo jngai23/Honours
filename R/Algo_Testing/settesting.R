@@ -114,7 +114,8 @@ confusionMatrix(predictions, removedtest$Toxicity_Value)
 
 
 #Custom Algo creation
-
+#Code snippet taken from "https://machinelearningmastery.com/tune-machine-learning-algorithms-in-r/"
+#*Temporary, to be rewritten and adjusted for usage
 customRF <- list(type = "Classification", library = "randomForest", loop = NULL)
 customRF$parameters <- data.frame(parameter = c("mtry", "ntree"), class = rep("numeric", 2), label = c("mtry", "ntree"))
 customRF$grid <- function(x, y, len = NULL, search = "grid") {}
