@@ -1,0 +1,20 @@
+[1] "from deepnormspedata.csv"
+800 samples
+ 10 predictor
+  2 classes: 'F', 'T' 
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 721, 719, 720, 721, 721, 720, ... 
+Resampling results:
+
+  ROC        Sens       Spec     
+  0.5489153  0.7218779  0.3367201
+
+Tuning parameter 'mtry' was held constant at a value of 25
+Tuning parameter 'ntree' was
+ held constant at a value of 1000
+ Accuracy     Kappa 
+0.5700000 0.1169525 
+[1] "Accuracy =  0.57"
+[1] "RMSE =  0.6557438524302"

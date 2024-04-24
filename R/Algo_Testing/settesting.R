@@ -14,7 +14,7 @@ set.seed(seed)
 
 #Data reading
 #endodata <- read_csv("Documents/test/caret_stuff/final.csv")
-endodata <- deepspedata
+endodata <- deepnormspedata
 #Selecting data sample from set (~12000 datapoints)
 headata <- sample_n(endodata[,2:(ncol(endodata))], 1000)
 #Removes Null cells
@@ -44,7 +44,7 @@ colcount <- ncol(headtrain)
 x <- headtrain[,2:colcount]
 y <- headtrain$Toxicity_Value
 
-control <- trainControl(method="repeatedcv", number=10, repeats=3)
+control <- trainControl(method="cv", number=10, repeats=3)
 metric <- "Accuracy"
 set.seed(seed)
 mtry <- 12
