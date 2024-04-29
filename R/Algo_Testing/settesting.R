@@ -44,6 +44,9 @@ colcount <- ncol(headtrain)
 x <- headtrain[,2:colcount]
 y <- headtrain$Toxicity_Value
 
+tuneRF(x, y, mtryStart = 5, ntreeTry = 500, stepFactor=2, improve=0.05,
+       trace=TRUE, plot=TRUE, doBest=FALSE,)
+
 control <- trainControl(method="cv", number=10, repeats=3)
 metric <- "Accuracy"
 set.seed(seed)

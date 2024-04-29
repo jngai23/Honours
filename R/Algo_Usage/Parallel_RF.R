@@ -10,26 +10,26 @@ library(doParallel)
 library(dplyr)
 library(Metrics)
 library(pROC)
-
-cl <- makePSOCKcluster(5)
+setwd("~/Documents/Honours/R/Algo_Usage")
+cl <- makePSOCKcluster(4)
 registerDoParallel(cl)
 stopCluster(cl)
 
 seed <- 81
 set.seed(seed)
 
-#Data Reading
-df <- deepnormspedata
+#Data Reading, make sure to change for each set
+df <- read_csv("datasets/autoencdata.csv")
 
 #Sampling for testing
-df <- sample_n(df[,2:(ncol(df))], 1000)
+#df <- sample_n(df[,3:(ncol(df))], 500)  
 sampleset <- createDataPartition(df$Toxicity_Value, p=0.8, list=FALSE)
 
 
 #Convert Toxicity_Value into a factor for the algorithm
 #Numerical Binary (1,0) values are also altered to Categorical (T, F)
-df$Toxicity_Value <- ifelse(df$Toxicity_Value == 1, "T", "F")
 df$Toxicity_Value = as.factor(df$Toxicity_Value) 
+df$Toxicity_Value <- ifelse(df$Toxicity_Value == 1, "T", "F")
 
 #Creating test and train sets
 testset <- df[-sampleset,]
@@ -38,26 +38,11 @@ trainset <- df[sampleset,]
 x <- trainset#[,2:ncol(trainset)]
 y <- trainset$Toxicity_Value
 
-#Random Forest Algorithm initialisation
-#Identical to Inbuilt RandomForest from caret but multiple variables can be tested
-RF <- list(type = "Classification", library = "randomForest", loop = NULL)
-RF$parameters <- data.frame(parameter = c("mtry", "ntree"), 
-                            class = rep("numeric", 2), 
-                            label = c("mtry", "ntree"))
-RF$grid <- function(x, y, len = NULL, search = "grid") {}
-RF$fit <- function(x, y, wts, param, lev, last, weights, classProbs, ...) {
-  randomForest(x, y, mtry = param$mtry, ntree=param$ntree, ...)
-}
-RF$predict <- function(modelFit, newdata, preProc = NULL, submodels = NULL)
-  predict(modelFit, newdata)
-RF$prob <- function(modelFit, newdata, preProc = NULL, submodels = NULL)
-  predict(modelFit, newdata, type = "prob")
-RF$sort <- function(x) x[order(x[,1]),]
-RF$levels <- function(x) x$classes
-
 #Parameter setting
-candidates = c(25, 50)
-treecount = c(100, 250)
+#test mtry = 5, 10, 50, 100, 250, 500
+candidates = c(5, 10, 50, 100, 250)
+#test ntree = 500, 1000, 2500
+treecount = c(1000)
 
 #Testing a range of parameters
 metric <- "Accuracy"
@@ -67,12 +52,19 @@ control <- trainControl(method="cv", number=10,
                         classProbs=TRUE,
                         savePredictions = 'all',
                         allowParallel=TRUE)
-tunegrid <- expand.grid(.mtry=candidates, .ntree=treecount)
+tunegrid <- expand.grid(.mtry=candidates)
 set.seed(seed)
 #Trains the model on data using parameters set
-custom <- train(Toxicity_Value~., data=x, method=RF,
-                metric=metric, tuneGrid=tunegrid,
-                trControl=control, na.action = na.exclude)
+metric <- "ROC"
+set.seed(seed)
+tunegrid <- expand.grid(.mtry=candidates)
+start.time <- Sys.time()
+custom <- train(Toxicity_Value~., data=x, method="rf", 
+                metric=metric, tuneGrid=tunegrid, trControl=control, 
+                ntree=treecount, na.action = na.exclude)
+end.time <- Sys.time()
+time.taken <- round(end.time - start.time,2)
+time.taken
 #Plot and View Data
 custom
 #plot(custom)
@@ -92,6 +84,7 @@ acc = counts/nrow(testset)
 print(paste("Accuracy = ", acc))
 
 #Determines Cohen's Kappa Coefficient of Model
+testset$Toxicity_Value = as.factor(testset$Toxicity_Value) 
 postResample(pred = predout, obs = testset$Toxicity_Value)
 
 #Converts Toxicity_Value Data back to numerical to calculate RMSE
@@ -102,19 +95,15 @@ binary_preds <- ifelse(predout == 'T', 1, 0)
 RMSE <- rmse(binary_testset, binary_preds)
 
 #Output all results to text
-sink(file = 'output.txt')
-print('from deepnormspedata.csv')
+#Change output file depending on inputs
+sink(file = 'autoencdataRF.txt')
+print('from autoencdata.csv')
+print(paste("ntree = ", treecount))
+print(paste("mtry = ", candidates))
 custom
 postResample(pred = predout, obs = testset$Toxicity_Value)
 print(paste("Accuracy = ", acc))
 print(paste("RMSE = ", RMSE))
+print(time.taken)
 sink()
 
-control <- trainControl(method="cv", number=10, repeats=3)
-metric <- "Accuracy"
-set.seed(seed)
-mtry <- 12
-tunegrid <- expand.grid(.mtry=mtry)
-confusegrid <- train(Toxicity_Value~., data=headtrain, method="rf", 
-                     metric=metric, tuneGrid=tunegrid, trControl=control, 
-                     ntree=1500, na.action = na.exclude, allowParallel=TRUE)
