@@ -1,0 +1,3 @@
+epochs = 7
+batchsize = 3
+latent_space = 42
