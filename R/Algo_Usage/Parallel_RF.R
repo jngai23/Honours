@@ -20,9 +20,9 @@ set.seed(seed)
 
 #Data Reading, make sure to change for each set
 #df <- read_csv("datasets/UMAPdata.csv")
-df <- Morganfp
+df <- dtargetUMAPdata
 #Sampling for testing
-df <- sample_n(df[,2:(ncol(df))], 500)  
+df <- sample_n(df[,3:(ncol(df))], 1000)  
 sampleset <- createDataPartition(df$Toxicity_Value, p=0.8, list=FALSE)
 
 
