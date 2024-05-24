@@ -1,28 +1,28 @@
-[1] "from autoencdata.csv"
-[1] "ntree =  1000"
+[1] "ntree =  2000"
 [1] "mtry =  5"   "mtry =  10"  "mtry =  50"  "mtry =  100" "mtry =  250"
 Random Forest 
 
 800 samples
-  2 predictor
+ 42 predictor
   2 classes: 'F', 'T' 
 
 No pre-processing
 Resampling: Cross-Validated (10 fold) 
-Summary of sample sizes: 721, 719, 720, 721, 721, 720, ... 
+Summary of sample sizes: 721, 720, 720, 720, 721, 719, ... 
 Resampling results across tuning parameters:
 
-  mtry  ROC       Sens       Spec     
-    5   0.998913  0.9978261  0.9969697
-   10   0.998913  0.9978261  0.9969697
-   50   0.998913  0.9978261  0.9969697
-  100   0.998913  0.9978261  0.9969697
-  250   0.998913  0.9978261  0.9969697
+  mtry  ROC        Sens       Spec     
+    5   0.5049541  0.7610628  0.2444538
+   10   0.5028606  0.7371014  0.2703361
+   50   0.5006002  0.6890338  0.2905042
+  100   0.5048078  0.6868116  0.2993277
+  250   0.5019651  0.6868599  0.2818487
 
 ROC was used to select the optimal model using the largest value.
 The final value used for the model was mtry = 5.
- Accuracy     Kappa 
-0.9900000 0.9798367 
-[1] "Accuracy =  0.99"
-[1] "RMSE =  0.1"
-Time difference of 3.96 secs
+  Accuracy      Kappa 
+0.56500000 0.04206122 
+[1] "Accuracy =  0.565"
+[1] "RMSE =  0.659545297913646"
+Time difference of 50.56 secs
+[1] "from autoencdata.csv"

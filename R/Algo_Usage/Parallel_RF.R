@@ -20,9 +20,9 @@ set.seed(seed)
 
 #Data Reading, make sure to change for each set
 #df <- read_csv("datasets/UMAPdata.csv")
-df <- dtargetUMAPdata
+df <- dtargetautoencdata
 #Sampling for testing
-df <- sample_n(df[,3:(ncol(df))], 1000)  
+df <- sample_n(df[,0:(ncol(df))], 1000)  
 sampleset <- createDataPartition(df$Toxicity_Value, p=0.8, list=FALSE)
 
 
@@ -42,7 +42,7 @@ y <- trainset$Toxicity_Value
 #test mtry = 5, 10, 50, 100, 250, 500
 candidates = c(5, 10, 50, 100, 250)
 #test ntree = 500, 1000, 2500
-treecount = c(1000)
+treecount = c(2000)
 
 #Testing a range of parameters
 metric <- "Accuracy"
@@ -96,7 +96,7 @@ RMSE <- rmse(binary_testset, binary_preds)
 
 #Output all results to text
 #Change output file depending on inputs
-sink(file = 'autoencdataRF.txt')
+#sink(file = 'autoencdataRF.txt')
 print('from autoencdata.csv')
 print(paste("ntree = ", treecount))
 print(paste("mtry = ", candidates))
@@ -105,5 +105,5 @@ postResample(pred = predout, obs = testset$Toxicity_Value)
 print(paste("Accuracy = ", acc))
 print(paste("RMSE = ", RMSE))
 print(time.taken)
-sink()
+#sink()
 

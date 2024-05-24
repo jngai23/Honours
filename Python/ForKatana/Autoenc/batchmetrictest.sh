@@ -8,4 +8,4 @@
 cd /home/z5363347/Python/autoencoding/metrictesting
 source /home/z5363347/.venvs/newvenv/bin/activate
 chmod +x metrictest.py
-python3 metrictest.py -> metriclogs2.txt
+python3 metrictest.py -> metriclogs.txt

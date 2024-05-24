@@ -18,7 +18,7 @@ xtest = testset.iloc[:, 2:].values
 
 import tensorflow as tf
 from tensorflow import keras
-autoencoder = keras.models.load_model('/srv/scratch/z5363347/models/7.model')
+autoencoder = keras.models.load_model('/srv/scratch/z5363347/models/8.model')
 
 colcount = len(xtest[0])
 ae_out = autoencoder.predict([ xtest.reshape(-1, colcount, 1) ])
@@ -56,7 +56,7 @@ for samples in predictions:
                 
         loops = loops + 1
 
-print('model = 6.model')
+print('model = 8.model')
 
 print('positives in data', testpos)
 print('negatives in data', testneg)
