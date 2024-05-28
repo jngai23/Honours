@@ -140,13 +140,11 @@ customRF$levels <- function(x) x$classes
 #registerDoParallel(cluster)
 #stopCluster(cluster)
 
-control <- trainControl(method="repeatedcv", number=10, repeats=3)
+control <- trainControl(method="repeatedcv", number=10, repeats=3, classProbs = TRUE)
 tunegrid <- expand.grid(.mtry=c(5:10), .ntree=c(125, 150, 175, 200))
 set.seed(seed)
-custom <- train(Toxicity_Value~., data=headata, method=customRF,
+custom <- train(Toxicity_Value~., data=x, method=customRF,
                 metric=metric, tuneGrid=tunegrid,
                 trControl=control, na.action = na.exclude)
 custom
 plot(custom)
-
-featurePlot(x = deepnormspedata[, 3:7], y = deepnormspedata$Toxicity_Value, plot = 'box')
