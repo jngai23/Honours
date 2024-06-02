@@ -141,7 +141,7 @@ customRF$levels <- function(x) x$classes
 #stopCluster(cluster)
 
 control <- trainControl(method="repeatedcv", number=10, repeats=3, classProbs = TRUE)
-tunegrid <- expand.grid(.mtry=c(5:10), .ntree=c(125, 150, 175, 200))
+tunegrid <- expand.grid(.mtry=c(2, 5, 10, 15, 20, 25), .ntree=c(100, 200, 500, 1000))
 set.seed(seed)
 custom <- train(Toxicity_Value~., data=x, method=customRF,
                 metric=metric, tuneGrid=tunegrid,

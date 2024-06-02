@@ -40,9 +40,9 @@ y <- trainset$Toxicity_Value
 
 #Parameter setting
 #test mtry = 5, 10, 50, 100, 250, 500
-candidates = c(5, 10, 50, 100, 250)
+candidates = c(5)
 #test ntree = 500, 1000, 2500
-treecount = c(2000)
+treecount = c(500)
 
 #Testing a range of parameters
 metric <- "Accuracy"
@@ -70,7 +70,7 @@ custom
 #plot(custom)
 
 #Predict on Test Set
-predout = predict(custom, testset)
+predout = predict(custom, testset,decisionValues=TRUE)
 
 #Tests accuracy of model on the Test Set
 length = length(testset$Toxicity_Value)
