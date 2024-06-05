@@ -1,4 +1,4 @@
-#30/5/24 SVM Testing & implementation via LibLineaR
+#3/6/24 SVM implementation via LibLineaR
 
 library(caret)
 library(mlbench)
@@ -9,18 +9,20 @@ library(dplyr)
 library(Metrics)
 library(pROC)
 library(LiblineaR)
-setwd("~/Documents/Honours/R/Algo_Testing/SVM")
+setwd("~/Honours/Rstudio")
+
+#No multicore for this library
 #cl <- makePSOCKcluster(4)
 #registerDoParallel(cl)
 #stopCluster(cl)
 
-df <- read.csv("~/Documents/Honours/Data/Targetdata/autoencdata/dtargetautoencdata.csv")
+df <- read.csv("Datasets/DrugTargets.csv")
 
 seed <- 81
 set.seed(seed)
 
 #Sampling for testing
-df <- sample_n(df[,0:(ncol(df))], 2000)  
+#df <- sample_n(df[,0:(ncol(df))], 2000)  
 sampleset <- createDataPartition(df$Toxicity_Value, p=0.8, list=FALSE)
 
 
@@ -42,16 +44,13 @@ ytest <- as.factor(testset$Toxicity_Value)
 #Creating dataframe to store results
 #Tracks hyperparameters (cost, type) and confusion matrix variables
 results <- data.frame(type = numeric(),
-                 cost = numeric(),
-                 tp = numeric(),
-                 tn = numeric(),
-                 fn = numeric(),
-                 fp = numeric(),
-                 acc = numeric(),
-                 mcc = numeric(),
-                 f1 = numeric(),
-                 kappa = numeric(),
-                 stringsAsFactors = FALSE)
+                      cost = numeric(),
+                      tp = numeric(),
+                      tn = numeric(),
+                      fn = numeric(),
+                      fp = numeric(),
+                      acc = numeric(),
+                      stringsAsFactors = FALSE)
 
 #Setting Hyperparameters
 types <- c(0:7)
@@ -91,24 +90,7 @@ predmetrics <- function(ytest, testset, p, curtype, curcost) {
     }
   }
   acc = acc / nrow(testset)
-  f1 = (2 * tp) / ((2 * tp) + fp + fn)
-  mcc = 0
-  
-  temp = sqrt((fp + tn) * (tp + fp) * (tp + fn) * (tn + fn))
-  if (temp != 0) {
-    mcc = ((tp * tn) - (fp * fn)) / temp
-  }
-  
-  kapp = 0
-  temp = (( ( (tp + fp) * (fp + tn) ) + ( (tp + fn) * (fn + tn) ) ))
-  if (temp != 0) {
-    kapp =  ( 2 * ((tp * tn) - (fn * fp)) ) / temp
-  }
-  
-  
-  
-  resultlist <- list(type = curtype, cost = curcost, tp = tp, tn = tn, 
-                     fn = fn, fp = fp, acc = acc, mcc = mcc, f1 = f1, kappa = kapp)
+  resultlist <- list(type = curtype, cost = curcost, tp = tp, tn = tn, fn = fn, fp = fp, acc = acc)
   return(resultlist)
 }
 
@@ -116,10 +98,9 @@ predmetrics <- function(ytest, testset, p, curtype, curcost) {
 for(type in types){
   for (cost in costs){
     m=LiblineaR(data=xtrain,target=y,type=type,cost=cost,bias=1,verbose=FALSE)
-    p=predict(m,xtrain)
+    p=predict(m,xtest)
     
-    resultlist <- predmetrics(y, trainset, p, type, cost)
+    resultlist <- predmetrics(ytest, testset, p, type, cost)
     results <- rbind(results, resultlist)
-    }
+  }
 }
-

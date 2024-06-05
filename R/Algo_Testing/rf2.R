@@ -91,8 +91,8 @@ treecount = c(10, 100, 500, 1000, 2500)
 #Model Training
 
 start.time<-proc.time() 
-for (mtry in candidates) {
-  for (ntree in treecount) {
+for (candi in candidates) {
+  for (treec in treecount) {
     #model = randomForest(x = xtrain, y = ytrain, mtry = mtry, ntree = ntree)
     metric <- "ROC"
     #Control tests for ROC, Sensitivity, Specificity
@@ -104,14 +104,14 @@ for (mtry in candidates) {
     )
     set.seed(seed)
     #Trains the model on data using parameters set
-    tunegrid <- expand.grid(.mtry=mtry)
+    tunegrid <- expand.grid(.mtry=candi)
     confusegrid <- train(x = xtrain, y = ytrain, method="rf", 
                          metric=metric, tuneGrid=tunegrid, trControl=control, 
-                         ntree=ntree)
+                         ntree=treec)
     #Predict on Test Set
     predout = predict(model, xtest)
     #Calculate Metrics
-    resultlist <- metriccalc(predout, ytest, mtry, ntree)
+    resultlist <- metriccalc(predout, ytest, candi, treec)
     results <- rbind(results, resultlist)
   }  
 }
