@@ -1,0 +1,8 @@
+Chemopy SR-ATD5 RF Consensus MCC = 0.3955882962263099
+Chemopy SR-ATD5 NN Consensus MCC = 0.30352654426979797
+Chemopy NR-AR RF Consensus MCC = 0.558712298944327
+Chemopy NR-AR NN Consensus MCC = 0.6450737269248564
+Chemopy Mutagen RF Consensus MCC = 0.6340781056998638
+
+Chemopy Mutagen NN Consensus MCC = 0.5087370115607738
+Chemopy NR-AR RF Consensus MCC = 0.558712298944327
