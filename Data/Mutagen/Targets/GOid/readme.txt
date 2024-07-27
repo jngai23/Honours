@@ -1,0 +1,1 @@
+Contains GOid correlation from drug target data taken using UNIPROT and QuickGO

@@ -1,0 +1,2 @@
+contains predictive model development scripts in order of:
+Toxicity Endpoint -> Feature Representation -> Model Type

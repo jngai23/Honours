@@ -1,0 +1,1 @@
+contains structural endpoints for Toxric Endocrine Datasets
