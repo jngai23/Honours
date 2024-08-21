@@ -12,6 +12,10 @@
 #nnmetrics(preds, toxvals, threshold)
     #identical to metriccalc but for data ranging from 0 to 1
     #requires a cuttoff threshold to consider an outcome positive
+#setbalance(df)
+    #inputs a dataframe then checks if the classes are balanced
+    #if there is a class imbalance > 1:4 balances it to 1:1
+    #returns the dataframe otherwise
 
 
 #function to calculate various metrics, outputs a list of various metrics with a consistent index
@@ -47,7 +51,8 @@ def metriccalc(preds, ytrain):
                 tncount = tncount + 1
 
         iterations = iterations + 1
-    
+    if tncount == 0 or fncount == 0 or tpcount == 0 or fpcount == 0 or testneg == 0 or testpos == 0:
+        return [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     #calculate a wide swathe of metrics
     netfn = fncount / (fncount + tncount)
     nettn = tncount / (fncount + tncount)
@@ -86,6 +91,41 @@ def metriccalc(preds, ytrain):
     metriclist = [testpos, testneg, fn, tn, tp, fp, netacc, posacc, negacc, fpr, tpr, f1, mcc, kapp]
     
     return metriclist
+
+def setbalance(df):
+    import pandas as pd
+    import numpy as np
+    #df = df.iloc[:,1:]
+    toxvals = df['Toxicity_Value']
+
+    zercount = 0
+    for value in toxvals:
+        if value == 0:
+            zercount += 1
+
+    poscount = len(toxvals)-zercount
+    domval = 0
+
+    if poscount > zercount:
+        temp = poscount
+        poscount = zercount
+        zercount = temp
+        domval = 1
+
+    if poscount*4 < zercount:
+        ratio = zercount / poscount
+        factor = int(ratio) - 1
+
+        loops = 0
+        todel = []
+        for value in toxvals:
+            if loops % factor != 0 and value == domval:
+                todel.append(loops)
+            loops += 1
+
+        df = df.drop(todel)
+        
+    return df
 
 #function to calculate various metrics, outputs a list of various metrics with a consistent index
 #functionally identical to metriccalc() but is for sigmoid data (ranges 0 to 1) rather than binary
@@ -169,3 +209,4 @@ def nnmetrics(preds, toxvals, threshold):
     
     metriclist = [testpos, testneg, fn, tn, tp, fp, netacc, posacc, negacc, fpr, tpr, f1, mcc, kapp]
     return metriclist
+

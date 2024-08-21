@@ -1,0 +1,1 @@
+16/8/24 This folder is for testing miscellaneous functions, ideas or implementations that do not belong in the other categories, also avoids clogging relevant folders with detritus
