@@ -1,0 +1,511 @@
+=======================================
+For dataset NR-ER_Chemopy.csv
+5/5 [==============================] - 0s 643us/step
+5/5 [==============================] - 0s 599us/step
+for fold 1 optimal test mcc of 0.4411697965394827 validation mcc of 0.24928921094319711
+5/5 [==============================] - 0s 467us/step
+5/5 [==============================] - 0s 486us/step
+for fold 2 optimal test mcc of 0.29796165166085364 validation mcc of 0.22680725794838338
+5/5 [==============================] - 0s 467us/step
+5/5 [==============================] - 0s 1ms/step
+for fold 3 optimal test mcc of 0.37816558332864475 validation mcc of 0.27339641186045927
+5/5 [==============================] - 0s 484us/step
+5/5 [==============================] - 0s 595us/step
+for fold 4 optimal test mcc of 0.3214027742759506 validation mcc of 0.26558685365286516
+5/5 [==============================] - 0s 490us/step
+5/5 [==============================] - 0s 404us/step
+for fold 5 optimal test mcc of 0.20902683763771576 validation mcc of 0.3960572051296378
+WARNING:tensorflow:5 out of the last 14 calls to <function Model.make_predict_function.<locals>.predict_function at 0x1457432e0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 15 calls to <function Model.make_predict_function.<locals>.predict_function at 0x16a1716c0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+
+validation metrics of:
+positives in data 154
+negatives in data 209
+net accuracy = 0.6859504132231405
+mcc = 0.3530829547225743
+========================================
+For dataset Developmental_Toxicity_Chemopy.csv
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 1 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 2 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 3 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 4 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 5 optimal test mcc of 0 validation mcc of 0
+
+validation metrics of:
+positives in data 0
+negatives in data 0
+net accuracy = 0
+mcc = 0
+========================================
+For dataset NR-aromatase_Chemopy.csv
+2/2 [==============================] - 0s 838us/step
+2/2 [==============================] - 0s 823us/step
+for fold 1 optimal test mcc of 0.3231832781909825 validation mcc of 0.46911584571415993
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 2 optimal test mcc of 0.5617467761896284 validation mcc of 0.5730420658597761
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 3 optimal test mcc of 0.629940788348712 validation mcc of 0.5943247013318183
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 846us/step
+for fold 4 optimal test mcc of 0.5860869565217391 validation mcc of 0.4214070716162253
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 771us/step
+for fold 5 optimal test mcc of 0.6912623650661461 validation mcc of 0.3874875837571862
+
+validation metrics of:
+positives in data 58
+negatives in data 63
+net accuracy = 0.7272727272727273
+mcc = 0.45723402834709337
+========================================
+For dataset SR-ATAD5_Chemopy.csv
+2/2 [==============================] - 0s 950us/step
+2/2 [==============================] - 0s 814us/step
+for fold 1 optimal test mcc of 0.4576043153224294 validation mcc of 0.08817866715195197
+2/2 [==============================] - 0s 893us/step
+2/2 [==============================] - 0s 839us/step
+for fold 2 optimal test mcc of 0.6574382586514258 validation mcc of 0.3231528059706172
+2/2 [==============================] - 0s 915us/step
+2/2 [==============================] - 0s 730us/step
+for fold 3 optimal test mcc of 0.5142653638627284 validation mcc of 0.7035264706814485
+2/2 [==============================] - 0s 972us/step
+2/2 [==============================] - 0s 978us/step
+for fold 4 optimal test mcc of 0.3926293365548485 validation mcc of 0.24359938288234503
+2/2 [==============================] - 0s 997us/step
+2/2 [==============================] - 0s 846us/step
+for fold 5 optimal test mcc of 0.4231944290295931 validation mcc of 0.494949494949495
+
+validation metrics of:
+positives in data 0
+negatives in data 0
+net accuracy = 0
+mcc = 0
+========================================
+For dataset SR-ARE_Chemopy.csv
+6/6 [==============================] - 0s 475us/step
+6/6 [==============================] - 0s 494us/step
+for fold 1 optimal test mcc of 0.44943629844286875 validation mcc of 0.3544211293328358
+6/6 [==============================] - 0s 983us/step
+6/6 [==============================] - 0s 430us/step
+for fold 2 optimal test mcc of 0.43596706094860377 validation mcc of 0.35499523899037044
+6/6 [==============================] - 0s 547us/step
+6/6 [==============================] - 0s 479us/step
+for fold 3 optimal test mcc of 0.4933139534883721 validation mcc of 0.38606316725018897
+6/6 [==============================] - 0s 559us/step
+6/6 [==============================] - 0s 455us/step
+for fold 4 optimal test mcc of 0.4699599633857862 validation mcc of 0.4186008289059637
+6/6 [==============================] - 0s 466us/step
+6/6 [==============================] - 0s 539us/step
+for fold 5 optimal test mcc of 0.4444600116705966 validation mcc of 0.2930004310329034
+
+validation metrics of:
+positives in data 175
+negatives in data 240
+net accuracy = 0.7156626506024096
+mcc = 0.41065324603889813
+========================================
+For dataset SR-p53_Chemopy.csv
+3/3 [==============================] - 0s 603us/step
+3/3 [==============================] - 0s 664us/step
+for fold 1 optimal test mcc of 0.5273928029511317 validation mcc of 0.5394820272774139
+3/3 [==============================] - 0s 749us/step
+3/3 [==============================] - 0s 666us/step
+for fold 2 optimal test mcc of 0.45010638537051845 validation mcc of 0.3408106015837333
+3/3 [==============================] - 0s 643us/step
+3/3 [==============================] - 0s 979us/step
+for fold 3 optimal test mcc of 0.4793336992931299 validation mcc of 0.6720142602495544
+3/3 [==============================] - 0s 616us/step
+3/3 [==============================] - 0s 640us/step
+for fold 4 optimal test mcc of 0.6072792894227143 validation mcc of 0.6096564296716376
+2/2 [==============================] - 0s 929us/step
+2/2 [==============================] - 0s 994us/step
+for fold 5 optimal test mcc of 0.5345086526345906 validation mcc of 0.544151708209616
+
+validation metrics of:
+positives in data 78
+negatives in data 88
+net accuracy = 0.7349397590361446
+mcc = 0.48970461459793163
+========================================
+For dataset Cardiotoxicity-1_Chemopy.csv
+
+4/4 [==============================] - 0s 541us/step
+4/4 [==============================] - 0s 614us/step
+for fold 1 optimal test mcc of 0.4929704056533308 validation mcc of 0.4065230621234517
+4/4 [==============================] - 0s 699us/step
+4/4 [==============================] - 0s 599us/step
+for fold 2 optimal test mcc of 0.39605288372182323 validation mcc of 0.33921594422289414
+4/4 [==============================] - 0s 570us/step
+4/4 [==============================] - 0s 510us/step
+for fold 3 optimal test mcc of 0.4480058946830208 validation mcc of 0.43463356032809364
+4/4 [==============================] - 0s 703us/step
+4/4 [==============================] - 0s 570us/step
+for fold 4 optimal test mcc of 0.2057594099279777 validation mcc of 0.24769192640969134
+4/4 [==============================] - 0s 627us/step
+4/4 [==============================] - 0s 585us/step
+for fold 5 optimal test mcc of 0.5011244377811095 validation mcc of 0.3632570788371102
+
+validation metrics of:
+positives in data 70
+negatives in data 240
+net accuracy = 0.8548387096774194
+mcc = 0.5395818099391085
+========================================
+For dataset SR-HSE_Chemopy.csv
+2/2 [==============================] - 0s 856us/step
+2/2 [==============================] - 0s 890us/step
+for fold 1 optimal test mcc of 0.43055762801289416 validation mcc of 0.37938990990121685
+2/2 [==============================] - 0s 840us/step
+2/2 [==============================] - 0s 792us/step
+for fold 2 optimal test mcc of 0.4545506576458782 validation mcc of 0.33728401118594503
+2/2 [==============================] - 0s 938us/step
+2/2 [==============================] - 0s 874us/step
+for fold 3 optimal test mcc of 0.37337760344098914 validation mcc of 0.423466849232862
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 971us/step
+for fold 4 optimal test mcc of 0.4763636363636364 validation mcc of 0.41759137001809177
+2/2 [==============================] - 0s 991us/step
+2/2 [==============================] - 0s 2ms/step
+for fold 5 optimal test mcc of 0.42270269140251704 validation mcc of 0.3529613641487189
+
+validation metrics of:
+positives in data 67
+negatives in data 79
+net accuracy = 0.726027397260274
+mcc = 0.44964026275209085
+========================================
+For dataset Respiratory_Toxicity_Chemopy.csv
+4/4 [==============================] - 0s 702us/step
+4/4 [==============================] - 0s 602us/step
+for fold 1 optimal test mcc of 0.6122387745857418 validation mcc of 0.36194583115294365
+4/4 [==============================] - 0s 505us/step
+4/4 [==============================] - 0s 527us/step
+for fold 2 optimal test mcc of 0.4259625690286783 validation mcc of 0.5960065073632956
+4/4 [==============================] - 0s 537us/step
+4/4 [==============================] - 0s 704us/step
+for fold 3 optimal test mcc of 0.4605539840170811 validation mcc of 0.49842458222273334
+4/4 [==============================] - 0s 741us/step
+4/4 [==============================] - 0s 542us/step
+for fold 4 optimal test mcc of 0.5262166925425446 validation mcc of 0.5697855517546669
+4/4 [==============================] - 0s 493us/step
+4/4 [==============================] - 0s 563us/step
+for fold 5 optimal test mcc of 0.5860738128103984 validation mcc of 0.3624017647921115
+
+validation metrics of:
+positives in data 161
+negatives in data 106
+net accuracy = 0.7902621722846442
+mcc = 0.5705763292358926
+========================================
+For dataset Carcinogenicity_Chemopy.csv
+3/3 [==============================] - 0s 665us/step
+3/3 [==============================] - 0s 525us/step
+for fold 1 optimal test mcc of 0.37724659112089265 validation mcc of 0.25295610923768386
+3/3 [==============================] - 0s 685us/step
+3/3 [==============================] - 0s 555us/step
+for fold 2 optimal test mcc of 0.33994723522629444 validation mcc of 0.20531332159375865
+3/3 [==============================] - 0s 657us/step
+3/3 [==============================] - 0s 554us/step
+for fold 3 optimal test mcc of 0.3713065450117333 validation mcc of 0.35628019323671495
+3/3 [==============================] - 0s 865us/step
+3/3 [==============================] - 0s 546us/step
+for fold 4 optimal test mcc of 0.4651832346756176 validation mcc of 0.11018274007957708
+3/3 [==============================] - 0s 706us/step
+3/3 [==============================] - 0s 561us/step
+for fold 5 optimal test mcc of 0.2706609215203017 validation mcc of 0.39164016865613144
+
+validation metrics of:
+positives in data 101
+negatives in data 103
+net accuracy = 0.6225490196078431
+mcc = 0.2508986187070821
+========================================
+For dataset Cardiotoxicity-30_Chemopy.csv
+2/2 [==============================] - 0s 989us/step
+2/2 [==============================] - 0s 733us/step
+for fold 1 optimal test mcc of 0.408248290463863 validation mcc of 0.2636352520041483
+2/2 [==============================] - 0s 856us/step
+2/2 [==============================] - 0s 688us/step
+for fold 2 optimal test mcc of 0.43867118408405514 validation mcc of 0.28867513459481287
+2/2 [==============================] - 0s 955us/step
+2/2 [==============================] - 0s 731us/step
+for fold 3 optimal test mcc of 0.49468251629248616 validation mcc of 0.2582932434465456
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 762us/step
+for fold 4 optimal test mcc of 0.47576082676004205 validation mcc of 0.24242424242424243
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 677us/step
+for fold 5 optimal test mcc of 0.33060622641979354 validation mcc of 0.14594807814673855
+
+validation metrics of:
+positives in data 85
+negatives in data 53
+net accuracy = 0.6811594202898551
+mcc = 0.3016933268392621
+========================================
+For dataset Cardiotoxicity-10_Chemopy.csv
+4/4 [==============================] - 0s 566us/step
+4/4 [==============================] - 0s 490us/step
+for fold 1 optimal test mcc of 0.4217259724208445 validation mcc of 0.35902083695744247
+4/4 [==============================] - 0s 565us/step
+4/4 [==============================] - 0s 485us/step
+for fold 2 optimal test mcc of 0.5631586737974498 validation mcc of 0.4716847320896517
+4/4 [==============================] - 0s 495us/step
+4/4 [==============================] - 0s 491us/step
+for fold 3 optimal test mcc of 0.4443069852979834 validation mcc of 0.21417439004445074
+4/4 [==============================] - 0s 682us/step
+4/4 [==============================] - 0s 483us/step
+for fold 4 optimal test mcc of 0.47336433487638924 validation mcc of 0.3460283213483658
+4/4 [==============================] - 0s 534us/step
+4/4 [==============================] - 0s 458us/step
+for fold 5 optimal test mcc of 0.38002988328007853 validation mcc of 0.29076863289620214
+
+validation metrics of:
+positives in data 190
+negatives in data 120
+net accuracy = 0.7161290322580646
+mcc = 0.423273435266739
+========================================
+For dataset Cardiotoxicity-5_Chemopy.csv
+4/4 [==============================] - 0s 617us/step
+4/4 [==============================] - 0s 471us/step
+for fold 1 optimal test mcc of 0.437355962981782 validation mcc of 0.42282377490511935
+4/4 [==============================] - 0s 610us/step
+4/4 [==============================] - 0s 465us/step
+for fold 2 optimal test mcc of 0.5672501213529971 validation mcc of 0.3412142872616051
+4/4 [==============================] - 0s 507us/step
+4/4 [==============================] - 0s 459us/step
+for fold 3 optimal test mcc of 0.2982230523232383 validation mcc of 0.367002969800959
+4/4 [==============================] - 0s 679us/step
+4/4 [==============================] - 0s 491us/step
+for fold 4 optimal test mcc of 0.38484128569772574 validation mcc of 0.1835733023672509
+4/4 [==============================] - 0s 558us/step
+4/4 [==============================] - 0s 482us/step
+for fold 5 optimal test mcc of 0.38254230140995404 validation mcc of 0.3119842689319597
+
+validation metrics of:
+positives in data 143
+negatives in data 167
+net accuracy = 0.7193548387096774
+mcc = 0.44529050658343367
+========================================
+For dataset NR-AR-LBD_Chemopy.csv
+
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 679us/step
+for fold 1 optimal test mcc of 0.5841090925098348 validation mcc of 0.38375350140056025
+2/2 [==============================] - 0s 908us/step
+2/2 [==============================] - 0s 810us/step
+for fold 2 optimal test mcc of 0.6312931568192699 validation mcc of 0.5927137145266497
+2/2 [==============================] - 0s 861us/step
+2/2 [==============================] - 0s 736us/step
+for fold 3 optimal test mcc of 0.7876414620128274 validation mcc of 0.7225300612714974
+2/2 [==============================] - 0s 861us/step
+2/2 [==============================] - 0s 708us/step
+for fold 4 optimal test mcc of 0.5296094833255066 validation mcc of 0.5783495974246009
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 701us/step
+for fold 5 optimal test mcc of 0.6080052052987127 validation mcc of 0.6625413488689132
+
+validation metrics of:
+positives in data 45
+negatives in data 49
+net accuracy = 0.7872340425531915
+mcc = 0.5834518571189314
+========================================
+For dataset Ames_Mutagenicity_Chemopy.csv
+19/19 [==============================] - 0s 382us/step
+19/19 [==============================] - 0s 344us/step
+for fold 1 optimal test mcc of 0.6208227099975346 validation mcc of 0.5535218066427305
+19/19 [==============================] - 0s 452us/step
+19/19 [==============================] - 0s 325us/step
+for fold 2 optimal test mcc of 0.5932411140920336 validation mcc of 0.557904538917227
+19/19 [==============================] - 0s 369us/step
+19/19 [==============================] - 0s 345us/step
+for fold 3 optimal test mcc of 0.5679278248447073 validation mcc of 0.5903635029452857
+19/19 [==============================] - 0s 397us/step
+19/19 [==============================] - 0s 342us/step
+for fold 4 optimal test mcc of 0.6384985541924117 validation mcc of 0.5352673706457621
+19/19 [==============================] - 0s 376us/step
+19/19 [==============================] - 0s 347us/step
+for fold 5 optimal test mcc of 0.6064270967501586 validation mcc of 0.5806385016015191
+
+validation metrics of:
+positives in data 840
+negatives in data 657
+net accuracy = 0.824315297261189
+mcc = 0.6451404641413351
+========================================
+For dataset Hepatotoxicity_Chemopy.csv
+8/8 [==============================] - 0s 509us/step
+8/8 [==============================] - 0s 541us/step
+for fold 1 optimal test mcc of 0.3838949941962189 validation mcc of 0.21951759136605822
+8/8 [==============================] - 0s 413us/step
+8/8 [==============================] - 0s 430us/step
+for fold 2 optimal test mcc of 0.4154703894270258 validation mcc of 0.34358956420536646
+8/8 [==============================] - 0s 566us/step
+8/8 [==============================] - 0s 384us/step
+for fold 3 optimal test mcc of 0.37693119160279687 validation mcc of 0.2863293287186705
+8/8 [==============================] - 0s 404us/step
+8/8 [==============================] - 0s 410us/step
+for fold 4 optimal test mcc of 0.3751180685958992 validation mcc of 0.34484733326200817
+8/8 [==============================] - 0s 390us/step
+8/8 [==============================] - 0s 440us/step
+for fold 5 optimal test mcc of 0.40391112918041794 validation mcc of 0.4165156593117775
+
+validation metrics of:
+positives in data 293
+negatives in data 284
+net accuracy = 0.6984402079722704
+mcc = 0.40957102903597453
+========================================
+For dataset NR-AR_Chemopy.csv
+2/2 [==============================] - 0s 871us/step
+2/2 [==============================] - 0s 943us/step
+for fold 1 optimal test mcc of 0.5897678246195885 validation mcc of 0.25967741935483873
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 801us/step
+for fold 2 optimal test mcc of 0.5304245094793512 validation mcc of 0.39187260014037595
+2/2 [==============================] - 0s 929us/step
+2/2 [==============================] - 0s 884us/step
+for fold 3 optimal test mcc of 0.40754331965559837 validation mcc of 0.25189192964200935
+2/2 [==============================] - 0s 832us/step
+2/2 [==============================] - 0s 1ms/step
+for fold 4 optimal test mcc of 0.23775169425278764 validation mcc of 0.4457424941602093
+2/2 [==============================] - 0s 815us/step
+2/2 [==============================] - 0s 1ms/step
+for fold 5 optimal test mcc of 0.7485411606167015 validation mcc of 0.37360090973062793
+
+validation metrics of:
+positives in data 60
+negatives in data 64
+net accuracy = 0.7258064516129032
+mcc = 0.47104793887064794
+========================================
+For dataset Reproductive_Toxicity_Chemopy.csv
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 1 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 2 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 3 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 22ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 4 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 5 optimal test mcc of 0 validation mcc of 0
+
+validation metrics of:
+positives in data 0
+negatives in data 0
+net accuracy = 0
+mcc = 0
+========================================
+For dataset NR-ER-LBD_Chemopy.csv
+2/2 [==============================] - 0s 909us/step
+2/2 [==============================] - 0s 999us/step
+for fold 1 optimal test mcc of 0.42759738893850485 validation mcc of 0.6401515151515151
+2/2 [==============================] - 0s 825us/step
+2/2 [==============================] - 0s 779us/step
+for fold 2 optimal test mcc of 0.3924419641006372 validation mcc of 0.4673425840955336
+2/2 [==============================] - 0s 954us/step
+2/2 [==============================] - 0s 862us/step
+for fold 3 optimal test mcc of 0.7530977603847103 validation mcc of 0.467307780776706
+2/2 [==============================] - 0s 881us/step
+2/2 [==============================] - 0s 831us/step
+for fold 4 optimal test mcc of 0.5239121778849429 validation mcc of 0.47454694730322017
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 5 optimal test mcc of 0.581675050747111 validation mcc of 0.28090690892498693
+
+validation metrics of:
+positives in data 66
+negatives in data 75
+net accuracy = 0.75177304964539
+mcc = 0.5033281126575019
+========================================
+For dataset NR-PPAR-gamma_Chemopy.csv
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 1 optimal test mcc of 0.5594309277855158 validation mcc of 0
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 2 optimal test mcc of 0.520847435706514 validation mcc of 0.35143174800275734
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 3 optimal test mcc of 0.36232865092627065 validation mcc of 0.14171515370300786
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 4 optimal test mcc of 0.41110320839567327 validation mcc of 0.4241767985127718
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 5 optimal test mcc of 0.40904799405193093 validation mcc of 0.13474201390907387
+
+validation metrics of:
+positives in data 33
+negatives in data 37
+net accuracy = 0.6428571428571429
+mcc = 0.3311296376339095
+========================================
+For dataset NR-AhR_Chemopy.csv
+5/5 [==============================] - 0s 599us/step
+5/5 [==============================] - 0s 521us/step
+for fold 1 optimal test mcc of 0.6312969649896742 validation mcc of 0.5217592440890065
+
+5/5 [==============================] - 0s 506us/step
+5/5 [==============================] - 0s 495us/step
+for fold 2 optimal test mcc of 0.6804510993672778 validation mcc of 0.5681734618799293
+5/5 [==============================] - 0s 446us/step
+5/5 [==============================] - 0s 793us/step
+for fold 3 optimal test mcc of 0.5422077922077922 validation mcc of 0.5864889104677683
+5/5 [==============================] - 0s 486us/step
+5/5 [==============================] - 0s 1ms/step
+for fold 4 optimal test mcc of 0.5406956757014377 validation mcc of 0.5336235772437861
+5/5 [==============================] - 0s 472us/step
+5/5 [==============================] - 0s 474us/step
+for fold 5 optimal test mcc of 0.6275780114945833 validation mcc of 0.5801703873510619
+
+validation metrics of:
+positives in data 148
+negatives in data 185
+net accuracy = 0.8078078078078078
+mcc = 0.6178421847192422
+========================================
+For dataset SR-MMP_Chemopy.csv
+6/6 [==============================] - 0s 555us/step
+6/6 [==============================] - 0s 424us/step
+for fold 1 optimal test mcc of 0.6366117348601741 validation mcc of 0.4517943199890065
+6/6 [==============================] - 0s 545us/step
+6/6 [==============================] - 0s 661us/step
+for fold 2 optimal test mcc of 0.7328352770392051 validation mcc of 0.5671750181554103
+6/6 [==============================] - 0s 451us/step
+6/6 [==============================] - 0s 527us/step
+for fold 3 optimal test mcc of 0.5417959232014637 validation mcc of 0.6553414280809653
+6/6 [==============================] - 0s 559us/step
+6/6 [==============================] - 0s 605us/step
+for fold 4 optimal test mcc of 0.6058476829150472 validation mcc of 0.5555927889951146
+6/6 [==============================] - 0s 583us/step
+6/6 [==============================] - 0s 512us/step
+for fold 5 optimal test mcc of 0.653679187217302 validation mcc of 0.5702922967840103
+
+validation metrics of:
+positives in data 176
+negatives in data 239
+net accuracy = 0.7807228915662651
+mcc = 0.5471792375496609

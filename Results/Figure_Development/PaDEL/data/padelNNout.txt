@@ -1,0 +1,509 @@
+========================================
+For dataset Hepatotoxicity_PaDEL.csv
+6/6 [==============================] - 0s 850us/step
+6/6 [==============================] - 0s 672us/step
+for fold 1 optimal test mcc of 0.3138213482007467 validation mcc of 0.16627124251422518
+6/6 [==============================] - 0s 595us/step
+6/6 [==============================] - 0s 1ms/step
+for fold 2 optimal test mcc of 0.20534304002280163 validation mcc of 0.19764318885553456
+6/6 [==============================] - 0s 528us/step
+6/6 [==============================] - 0s 527us/step
+for fold 3 optimal test mcc of 0.2682167093113806 validation mcc of 0.2121498079533411
+6/6 [==============================] - 0s 755us/step
+6/6 [==============================] - 0s 643us/step
+for fold 4 optimal test mcc of 0.28868869091849997 validation mcc of 0.24689699641850607
+6/6 [==============================] - 0s 588us/step
+6/6 [==============================] - 0s 565us/step
+for fold 5 optimal test mcc of 0.2598028297347748 validation mcc of 0.11970383374705876
+
+validation metrics of:
+positives in data 249
+negatives in data 226
+net accuracy = 0.6757894736842105
+mcc = 0.3612083148139321
+========================================
+For dataset NR-PPAR-gamma_PaDEL.csv
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 1 optimal test mcc of 0.3003124875651863 validation mcc of 0.1676552676477941
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 2 optimal test mcc of 0 validation mcc of 0.03289758474798845
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 3 optimal test mcc of 0.6324555320336759 validation mcc of 0.1543033499620919
+1/1 [==============================] - 0s 22ms/step
+1/1 [==============================] - 0s 11ms/step
+for fold 4 optimal test mcc of 0.17293233082706766 validation mcc of 0
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 12ms/step
+for fold 5 optimal test mcc of 0.2988071523335984 validation mcc of 0.34265734265734266
+
+validation metrics of:
+positives in data 29
+negatives in data 36
+net accuracy = 0.5846153846153846
+mcc = 0.16857418082541983
+========================================
+For dataset NR-AR-LBD_PaDEL.csv
+2/2 [==============================] - 0s 850us/step
+2/2 [==============================] - 0s 746us/step
+for fold 1 optimal test mcc of 0.7132674875181881 validation mcc of 0.6768020406135381
+2/2 [==============================] - 0s 857us/step
+2/2 [==============================] - 0s 817us/step
+for fold 2 optimal test mcc of 0.49236596391733095 validation mcc of 0.5771944181220839
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 2ms/step
+for fold 3 optimal test mcc of 0.48168199453544985 validation mcc of 0.27414177175920534
+2/2 [==============================] - 0s 867us/step
+2/2 [==============================] - 0s 1ms/step
+for fold 4 optimal test mcc of 0.408491223118783 validation mcc of 0.3630067205194695
+1/1 [==============================] - 0s 20ms/step
+2/2 [==============================] - 0s 845us/step
+for fold 5 optimal test mcc of 0.5659164584181102 validation mcc of 0.39338235294117646
+
+validation metrics of:
+positives in data 41
+negatives in data 44
+net accuracy = 0.7529411764705882
+mcc = 0.5052988306208857
+========================================
+For dataset NR-AR_PaDEL.csv
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 826us/step
+for fold 1 optimal test mcc of 0.32564796633239174 validation mcc of 0.25872208965501264
+2/2 [==============================] - 0s 809us/step
+2/2 [==============================] - 0s 938us/step
+for fold 2 optimal test mcc of 0.23139254551834096 validation mcc of 0.6553030303030303
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 3 optimal test mcc of 0.10482848367219183 validation mcc of 0.3551969517774207
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 912us/step
+for fold 4 optimal test mcc of 0.6192695654389978 validation mcc of 0.4720932056297987
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 5 optimal test mcc of 0.24937069567766476 validation mcc of 0.3965197235402832
+
+validation metrics of:
+positives in data 55
+negatives in data 59
+net accuracy = 0.6403508771929824
+mcc = 0.28311496464321817
+========================================
+For dataset Respiratory_Toxicity_PaDEL.csv
+3/3 [==============================] - 0s 1ms/step
+3/3 [==============================] - 0s 944us/step
+for fold 1 optimal test mcc of 0.35098736564365846 validation mcc of 0.1905631616887157
+3/3 [==============================] - 0s 762us/step
+3/3 [==============================] - 0s 751us/step
+for fold 2 optimal test mcc of 0.6002073915576946 validation mcc of 0.2924337957991185
+3/3 [==============================] - 0s 744us/step
+3/3 [==============================] - 0s 772us/step
+for fold 3 optimal test mcc of 0.2709336042670731 validation mcc of 0.4433291676798978
+3/3 [==============================] - 0s 1ms/step
+3/3 [==============================] - 0s 1ms/step
+for fold 4 optimal test mcc of 0.2837040873113238 validation mcc of 0.16444884533823248
+3/3 [==============================] - 0s 1ms/step
+3/3 [==============================] - 0s 762us/step
+for fold 5 optimal test mcc of 0.471824981758758 validation mcc of 0.28425613694305124
+
+validation metrics of:
+positives in data 137
+negatives in data 94
+net accuracy = 0.7012987012987013
+mcc = 0.37296802081999014
+========================================
+For dataset Ames_Mutagenicity_PaDEL.csv
+18/18 [==============================] - 0s 1ms/step
+18/18 [==============================] - 0s 492us/step
+for fold 1 optimal test mcc of 0.5177778824315581 validation mcc of 0.4930666675370567
+18/18 [==============================] - 0s 745us/step
+18/18 [==============================] - 0s 480us/step
+for fold 2 optimal test mcc of 0.42955620697364943 validation mcc of 0.4553959029041699
+18/18 [==============================] - 0s 471us/step
+18/18 [==============================] - 0s 463us/step
+for fold 3 optimal test mcc of 0.4221461360226796 validation mcc of 0.4741936254537726
+18/18 [==============================] - 0s 516us/step
+18/18 [==============================] - 0s 448us/step
+for fold 4 optimal test mcc of 0.3899701946458238 validation mcc of 0.4010291913652937
+18/18 [==============================] - 0s 578us/step
+18/18 [==============================] - 0s 446us/step
+for fold 5 optimal test mcc of 0.4836240167297882 validation mcc of 0.47436550581199316
+
+validation metrics of:
+positives in data 790
+negatives in data 611
+net accuracy = 0.6973590292648109
+mcc = 0.454629762633763
+========================================
+For dataset Cardiotoxicity-1_PaDEL.csv
+4/4 [==============================] - 0s 575us/step
+4/4 [==============================] - 0s 545us/step
+for fold 1 optimal test mcc of 0.23172115705927024 validation mcc of 0.38633504943925795
+4/4 [==============================] - 0s 578us/step
+4/4 [==============================] - 0s 509us/step
+for fold 2 optimal test mcc of 0.33372909878389595 validation mcc of 0.21469064244661648
+4/4 [==============================] - 0s 809us/step
+4/4 [==============================] - 0s 570us/step
+for fold 3 optimal test mcc of 0.33875985344304 validation mcc of 0.4702342299728421
+4/4 [==============================] - 0s 568us/step
+4/4 [==============================] - 0s 523us/step
+for fold 4 optimal test mcc of 0.143797135056141 validation mcc of 0.1687925278580266
+4/4 [==============================] - 0s 694us/step
+4/4 [==============================] - 0s 532us/step
+for fold 5 optimal test mcc of 0.5206356455428652 validation mcc of 0.36513758681086983
+
+validation metrics of:
+positives in data 0
+negatives in data 0
+net accuracy = 0
+mcc = 0
+========================================
+For dataset Developmental_Toxicity_PaDEL.csv
+
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 1 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 2 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 3 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 4 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 5 optimal test mcc of 0 validation mcc of 0
+
+validation metrics of:
+positives in data 0
+negatives in data 0
+net accuracy = 0
+mcc = 0
+========================================
+For dataset NR-ER-LBD_PaDEL.csv
+2/2 [==============================] - 0s 861us/step
+2/2 [==============================] - 0s 747us/step
+for fold 1 optimal test mcc of 0.3055970846781293 validation mcc of 0.2619924972972864
+2/2 [==============================] - 0s 868us/step
+2/2 [==============================] - 0s 806us/step
+for fold 2 optimal test mcc of 0.44565217391304346 validation mcc of 0.11359236684941296
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 811us/step
+for fold 3 optimal test mcc of 0.2670807453416149 validation mcc of 0.34222927858510166
+2/2 [==============================] - 0s 802us/step
+2/2 [==============================] - 0s 792us/step
+for fold 4 optimal test mcc of 0.21296296296296297 validation mcc of 0.2659489427040308
+2/2 [==============================] - 0s 906us/step
+2/2 [==============================] - 0s 873us/step
+for fold 5 optimal test mcc of 0.3919647479510927 validation mcc of 0.36774958904091276
+
+validation metrics of:
+positives in data 61
+negatives in data 67
+net accuracy = 0.6640625
+mcc = 0.3560565754813661
+========================================
+For dataset SR-ARE_PaDEL.csv
+5/5 [==============================] - 0s 733us/step
+5/5 [==============================] - 0s 520us/step
+for fold 1 optimal test mcc of 0.25862876924169814 validation mcc of 0.2250583287508479
+5/5 [==============================] - 0s 605us/step
+5/5 [==============================] - 0s 513us/step
+for fold 2 optimal test mcc of 0.30524143156594025 validation mcc of 0.4060380683492059
+5/5 [==============================] - 0s 664us/step
+5/5 [==============================] - 0s 492us/step
+for fold 3 optimal test mcc of 0.3781049380774436 validation mcc of 0.4253233532653499
+5/5 [==============================] - 0s 672us/step
+5/5 [==============================] - 0s 519us/step
+for fold 4 optimal test mcc of 0.33371179368245263 validation mcc of 0.1371505085536926
+5/5 [==============================] - 0s 624us/step
+5/5 [==============================] - 0s 558us/step
+for fold 5 optimal test mcc of 0.21497588689762215 validation mcc of 0.1597213625764171
+
+validation metrics of:
+positives in data 160
+negatives in data 225
+net accuracy = 0.6779220779220779
+mcc = 0.3250689462284642
+========================================
+For dataset Cardiotoxicity-10_PaDEL.csv
+4/4 [==============================] - 0s 694us/step
+4/4 [==============================] - 0s 543us/step
+for fold 1 optimal test mcc of 0.3958501791179516 validation mcc of 0.33512104077053845
+4/4 [==============================] - 0s 791us/step
+4/4 [==============================] - 0s 520us/step
+for fold 2 optimal test mcc of 0.199130054947046 validation mcc of 0.1886762052381444
+4/4 [==============================] - 0s 562us/step
+4/4 [==============================] - 0s 569us/step
+for fold 3 optimal test mcc of 0.1841724644251032 validation mcc of 0.11335764511976494
+4/4 [==============================] - 0s 738us/step
+4/4 [==============================] - 0s 604us/step
+for fold 4 optimal test mcc of 0 validation mcc of 0.35309224670388084
+4/4 [==============================] - 0s 564us/step
+4/4 [==============================] - 0s 525us/step
+for fold 5 optimal test mcc of 0.21352459016393444 validation mcc of 0.43886823018078336
+
+validation metrics of:
+positives in data 157
+negatives in data 99
+net accuracy = 0.65625
+mcc = 0.36864040596901637
+========================================
+For dataset SR-p53_PaDEL.csv
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 848us/step
+for fold 1 optimal test mcc of 0.40982808233692364 validation mcc of 0.3538720188575448
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 841us/step
+for fold 2 optimal test mcc of 0.470451926188454 validation mcc of 0.3172083195826086
+2/2 [==============================] - 0s 946us/step
+2/2 [==============================] - 0s 953us/step
+for fold 3 optimal test mcc of 0.3466876226407682 validation mcc of 0.07106690545187014
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 819us/step
+for fold 4 optimal test mcc of 0.40535891075800967 validation mcc of 0.37926688582264334
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 716us/step
+for fold 5 optimal test mcc of 0.2540839030242197 validation mcc of 0.4906912891732969
+
+validation metrics of:
+positives in data 65
+negatives in data 80
+net accuracy = 0.6551724137931034
+mcc = 0.305007662386757
+========================================
+For dataset Reproductive_Toxicity_PaDEL.csv
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 1 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 2 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 22ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 3 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 22ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 4 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 5 optimal test mcc of 0 validation mcc of 0
+
+validation metrics of:
+positives in data 0
+negatives in data 0
+net accuracy = 0
+mcc = 0
+========================================
+For dataset NR-AhR_PaDEL.csv
+4/4 [==============================] - 0s 679us/step
+4/4 [==============================] - 0s 733us/step
+for fold 1 optimal test mcc of 0.42318636883873434 validation mcc of 0.5936012691697514
+4/4 [==============================] - 0s 558us/step
+4/4 [==============================] - 0s 535us/step
+for fold 2 optimal test mcc of 0.354119091751268 validation mcc of 0.3483205038740212
+4/4 [==============================] - 0s 1ms/step
+4/4 [==============================] - 0s 576us/step
+for fold 3 optimal test mcc of 0.5156522129650789 validation mcc of 0.541534658916836
+4/4 [==============================] - 0s 677us/step
+4/4 [==============================] - 0s 565us/step
+for fold 4 optimal test mcc of 0.4336922226588341 validation mcc of 0.5286093885260589
+4/4 [==============================] - 0s 563us/step
+4/4 [==============================] - 0s 578us/step
+for fold 5 optimal test mcc of 0.31554460912785426 validation mcc of 0.45848097699750195
+
+validation metrics of:
+positives in data 136
+negatives in data 168
+net accuracy = 0.7335526315789473
+mcc = 0.4964117366692912
+========================================
+For dataset Carcinogenicity_PaDEL.csv
+3/3 [==============================] - 0s 690us/step
+3/3 [==============================] - 0s 585us/step
+for fold 1 optimal test mcc of 0.19912790697674418 validation mcc of 0.30186507556267705
+3/3 [==============================] - 0s 701us/step
+3/3 [==============================] - 0s 586us/step
+for fold 2 optimal test mcc of 0.1709408646894569 validation mcc of 0.23690177073967142
+3/3 [==============================] - 0s 637us/step
+3/3 [==============================] - 0s 650us/step
+for fold 3 optimal test mcc of 0.10003404384188802 validation mcc of 0.13192564399433787
+
+3/3 [==============================] - 0s 910us/step
+3/3 [==============================] - 0s 605us/step
+for fold 4 optimal test mcc of 0.10519514998302663 validation mcc of 0.1778277701407802
+3/3 [==============================] - 0s 628us/step
+3/3 [==============================] - 0s 578us/step
+for fold 5 optimal test mcc of 0.4248915789631691 validation mcc of 0.1813041603738673
+
+validation metrics of:
+positives in data 94
+negatives in data 94
+net accuracy = 0.5425531914893617
+mcc = 0.0880237696271323
+========================================
+For dataset NR-ER_PaDEL.csv
+5/5 [==============================] - 0s 644us/step
+5/5 [==============================] - 0s 573us/step
+for fold 1 optimal test mcc of 0.27754336175689315 validation mcc of 0.0893401450148153
+5/5 [==============================] - 0s 550us/step
+5/5 [==============================] - 0s 563us/step
+for fold 2 optimal test mcc of 0.16157887025338957 validation mcc of 0.20927539886411303
+5/5 [==============================] - 0s 584us/step
+5/5 [==============================] - 0s 512us/step
+for fold 3 optimal test mcc of 0.20459353067783365 validation mcc of 0.21671636552601772
+5/5 [==============================] - 0s 697us/step
+5/5 [==============================] - 0s 504us/step
+for fold 4 optimal test mcc of 0.2625212638029782 validation mcc of 0.3114447481729269
+5/5 [==============================] - 0s 700us/step
+5/5 [==============================] - 0s 524us/step
+for fold 5 optimal test mcc of 0.35368669349855597 validation mcc of 0.02768124773571906
+
+validation metrics of:
+positives in data 0
+negatives in data 0
+net accuracy = 0
+mcc = 0
+========================================
+For dataset NR-aromatase_PaDEL.csv
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 803us/step
+for fold 1 optimal test mcc of 0.4020997519600277 validation mcc of 0.3339920948616601
+2/2 [==============================] - 0s 869us/step
+2/2 [==============================] - 0s 717us/step
+for fold 2 optimal test mcc of 0.3493951615860243 validation mcc of 0.4530429365574605
+2/2 [==============================] - 0s 872us/step
+2/2 [==============================] - 0s 860us/step
+for fold 3 optimal test mcc of 0.2041241452319315 validation mcc of 0.2041241452319315
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 817us/step
+for fold 4 optimal test mcc of 0.25057210081926184 validation mcc of 0.17641870800832105
+2/2 [==============================] - 0s 809us/step
+2/2 [==============================] - 0s 858us/step
+for fold 5 optimal test mcc of 0.44701206701282925 validation mcc of 0.45662380827322546
+
+validation metrics of:
+positives in data 53
+negatives in data 57
+net accuracy = 0.7636363636363637
+mcc = 0.5325117478349791
+========================================
+For dataset Cardiotoxicity-5_PaDEL.csv
+4/4 [==============================] - 0s 583us/step
+4/4 [==============================] - 0s 512us/step
+for fold 1 optimal test mcc of 0.1991668721624399 validation mcc of 0.2876082927204622
+4/4 [==============================] - 0s 823us/step
+4/4 [==============================] - 0s 598us/step
+for fold 2 optimal test mcc of 0.1173053031056554 validation mcc of 0
+4/4 [==============================] - 0s 717us/step
+4/4 [==============================] - 0s 566us/step
+for fold 3 optimal test mcc of 0.2840349127596842 validation mcc of 0.21825426883433263
+4/4 [==============================] - 0s 813us/step
+4/4 [==============================] - 0s 601us/step
+for fold 4 optimal test mcc of 0.5490764624084037 validation mcc of 0.2940962568087599
+4/4 [==============================] - 0s 595us/step
+4/4 [==============================] - 0s 561us/step
+for fold 5 optimal test mcc of 0.292039894505255 validation mcc of 0.22526658350861134
+
+validation metrics of:
+positives in data 117
+negatives in data 139
+net accuracy = 0.59375
+mcc = 0.2836839151056609
+========================================
+For dataset SR-HSE_PaDEL.csv
+2/2 [==============================] - 0s 932us/step
+2/2 [==============================] - 0s 825us/step
+for fold 1 optimal test mcc of 0.37655184425966043 validation mcc of 0.3172723825136413
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 2 optimal test mcc of 0.22468922637101443 validation mcc of 0.13710212427677046
+2/2 [==============================] - 0s 982us/step
+2/2 [==============================] - 0s 993us/step
+for fold 3 optimal test mcc of 0.14101084345189377 validation mcc of 0.18569533817705186
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 776us/step
+for fold 4 optimal test mcc of 0.5119862011127547 validation mcc of 0.4117550274501065
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 820us/step
+for fold 5 optimal test mcc of 0.2290422233517107 validation mcc of 0.07445291969126747
+
+validation metrics of:
+positives in data 62
+negatives in data 72
+net accuracy = 0.6119402985074627
+mcc = 0.2140542658461513
+========================================
+For dataset Cardiotoxicity-30_PaDEL.csv
+2/2 [==============================] - 0s 903us/step
+2/2 [==============================] - 0s 929us/step
+for fold 1 optimal test mcc of 0.08043947985153671 validation mcc of 0.1620509308880411
+2/2 [==============================] - 0s 902us/step
+2/2 [==============================] - 0s 794us/step
+for fold 2 optimal test mcc of 0.3704792868174742 validation mcc of 0.21304583023538068
+2/2 [==============================] - 0s 993us/step
+2/2 [==============================] - 0s 704us/step
+for fold 3 optimal test mcc of 0.42008402520840293 validation mcc of 0.4952308186031472
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 741us/step
+for fold 4 optimal test mcc of 0.14850701853560508 validation mcc of 0.352077568846597
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 802us/step
+for fold 5 optimal test mcc of 0.40711742805652384 validation mcc of 0.37142857142857144
+
+validation metrics of:
+positives in data 70
+negatives in data 40
+net accuracy = 0.7181818181818181
+mcc = 0.38181060879030126
+========================================
+For dataset SR-ATAD5_PaDEL.csv
+2/2 [==============================] - 0s 938us/step
+2/2 [==============================] - 0s 760us/step
+for fold 1 optimal test mcc of 0.32746850462500326 validation mcc of 0.4924054147377875
+2/2 [==============================] - 0s 774us/step
+2/2 [==============================] - 0s 755us/step
+for fold 2 optimal test mcc of 0.11455108359133127 validation mcc of 0.2782074420373286
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 858us/step
+for fold 3 optimal test mcc of 0.48416483186574427 validation mcc of 0.4913538149119954
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 790us/step
+for fold 4 optimal test mcc of 0.6197797868009122 validation mcc of 0.5229975846277625
+2/2 [==============================] - 0s 991us/step
+2/2 [==============================] - 0s 800us/step
+for fold 5 optimal test mcc of 0.4141906381266716 validation mcc of 0.31075943842694237
+
+validation metrics of:
+positives in data 42
+negatives in data 48
+net accuracy = 0.7666666666666667
+mcc = 0.5426095162342934
+========================================
+For dataset SR-MMP_PaDEL.csv
+5/5 [==============================] - 0s 543us/step
+5/5 [==============================] - 0s 498us/step
+for fold 1 optimal test mcc of 0.5164524416434363 validation mcc of 0.33540563951408564
+5/5 [==============================] - 0s 795us/step
+5/5 [==============================] - 0s 554us/step
+for fold 2 optimal test mcc of 0.4098107823168713 validation mcc of 0.5996959065697587
+5/5 [==============================] - 0s 710us/step
+5/5 [==============================] - 0s 566us/step
+for fold 3 optimal test mcc of 0.426548391620771 validation mcc of 0.33081090225844123
+5/5 [==============================] - 0s 599us/step
+
+5/5 [==============================] - 0s 593us/step
+for fold 4 optimal test mcc of 0.4368839052455692 validation mcc of 0.4511777625672017
+5/5 [==============================] - 0s 833us/step
+5/5 [==============================] - 0s 527us/step
+for fold 5 optimal test mcc of 0.3837427456522708 validation mcc of 0.32843200034363534
+
+validation metrics of:
+positives in data 161
+negatives in data 217
+net accuracy = 0.7116402116402116
+mcc = 0.45406068756763107
