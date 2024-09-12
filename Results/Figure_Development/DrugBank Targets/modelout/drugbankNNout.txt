@@ -1,0 +1,326 @@
+========================================
+For dataset Cardiotoxicity_Cardiotoxicity-1_DBtargets.csv
+1/1 [==============================] - 0s 36ms/step
+1/1 [==============================] - 0s 13ms/step
+for fold 1 optimal test mcc of 0.21957751641341997 validation mcc of 0.18856180831641267
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 2 optimal test mcc of 0.35 validation mcc of 0.38575837490522974
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 3 optimal test mcc of 0.11952286093343936 validation mcc of 0.0
+WARNING:tensorflow:5 out of the last 8 calls to <function Model.make_predict_function.<locals>.predict_function at 0x289dbed40> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 9 calls to <function Model.make_predict_function.<locals>.predict_function at 0x1752e59e0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+
+validation metrics of:
+positives in data 8
+negatives in data 12
+net accuracy = 0.75
+mcc = 0.47075654176200415
+========================================
+For dataset Endocrine Disruption_SR-ARE_DBtargets.csv
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 1 optimal test mcc of 0.4401546768488066 validation mcc of 0.3082292831729182
+2/2 [==============================] - 0s 8ms/step
+2/2 [==============================] - 0s 2ms/step
+for fold 2 optimal test mcc of 0.30851602658597743 validation mcc of 0.11227217828476796
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 3 optimal test mcc of 0.3337593185976707 validation mcc of 0.2556654382735162
+
+validation metrics of:
+positives in data 37
+negatives in data 53
+net accuracy = 0.7
+mcc = 0.36815187809805633
+========================================
+For dataset Cardiotoxicity_Cardiotoxicity-5_DBtargets.csv
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 1 optimal test mcc of 0.44727841980180794 validation mcc of 0.21483446221182986
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 2 optimal test mcc of 0.6768087693315028 validation mcc of 0.2163179470681866
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 2ms/step
+for fold 3 optimal test mcc of 0.6853849062771005 validation mcc of 0.13245323570650439
+
+validation metrics of:
+positives in data 21
+negatives in data 33
+net accuracy = 0.5740740740740741
+mcc = 0.09614414947874673
+========================================
+For dataset Endocrine Disruption_SR-MMP_DBtargets.csv
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 1 optimal test mcc of 0.5967763691724937 validation mcc of 0.1774193548387097
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 2 optimal test mcc of 0.46816733073885236 validation mcc of 0.10894827448108195
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 995us/step
+for fold 3 optimal test mcc of 0.6154713163949571 validation mcc of 0.2961121060494589
+
+validation metrics of:
+positives in data 32
+negatives in data 43
+net accuracy = 0.6933333333333334
+mcc = 0.37741470621203443
+========================================
+For dataset Endocrine Disruption_NR-ER-LBD_DBtargets.csv
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 1 optimal test mcc of 0.40222445448345356 validation mcc of 0.5449492609130661
+1/1 [==============================] - 0s 22ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 2 optimal test mcc of 0.40006613209931935 validation mcc of 0.3294039229342062
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 12ms/step
+for fold 3 optimal test mcc of 0.5913123959890826 validation mcc of 0.378726042189707
+
+validation metrics of:
+positives in data 18
+negatives in data 21
+net accuracy = 0.6410256410256411
+mcc = 0.30903502310036884
+========================================
+For dataset Carcinogenicity_Carcinogenicity_DBtargets.csv
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 1 optimal test mcc of 0.13789005066533844 validation mcc of 0.20938142159739226
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 2 optimal test mcc of 0.3001225239993905 validation mcc of 0.36900620230837305
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 18ms/step
+for fold 3 optimal test mcc of 0.378726042189707 validation mcc of 0.05275349613399974
+
+validation metrics of:
+positives in data 12
+negatives in data 27
+net accuracy = 0.6666666666666666
+mcc = 0.016037507477489603
+========================================
+For dataset Endocrine Disruption_SR-HSE_DBtargets.csv
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 1 optimal test mcc of 0.5493502655735357 validation mcc of -0.025482359571881278
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 2 optimal test mcc of 0.48484848484848486 validation mcc of 0.5142857142857142
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 3 optimal test mcc of 0.40451991747794525 validation mcc of 0
+
+validation metrics of:
+positives in data 12
+negatives in data 14
+net accuracy = 0.6153846153846154
+mcc = 0.25617376914899
+========================================
+For dataset Hepatotoxicity_Hepatotoxicity_DBtargets.csv
+4/4 [==============================] - 0s 815us/step
+4/4 [==============================] - 0s 760us/step
+for fold 1 optimal test mcc of 0.38902180848243506 validation mcc of 0.12412821542843847
+4/4 [==============================] - 0s 1ms/step
+4/4 [==============================] - 0s 788us/step
+for fold 2 optimal test mcc of 0.5448768487010435 validation mcc of 0.33263783354201737
+4/4 [==============================] - 0s 1ms/step
+4/4 [==============================] - 0s 712us/step
+for fold 3 optimal test mcc of 0.2805666195637012 validation mcc of 0.18473989776576213
+
+validation metrics of:
+positives in data 91
+negatives in data 73
+net accuracy = 0.573170731707317
+mcc = 0.16031913292187264
+========================================
+For dataset Endocrine Disruption_SR-ATAD5_DBtargets.csv
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 1 optimal test mcc of 0.5773502691896257 validation mcc of 0.17407765595569785
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 2 optimal test mcc of 0.5367450401216932 validation mcc of -0.10050378152592121
+
+1/1 [==============================] - 0s 22ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 3 optimal test mcc of 0.35 validation mcc of 0
+
+validation metrics of:
+positives in data 10
+negatives in data 11
+net accuracy = 0.6190476190476191
+mcc = 0.2412090756622109
+========================================
+For dataset Endocrine Disruption_NR-AR_DBtargets.csv
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 2ms/step
+for fold 1 optimal test mcc of 0.533113989983183 validation mcc of 0.23570226039551584
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 840us/step
+for fold 2 optimal test mcc of 0.7072571334700215 validation mcc of 0.5553298152482934
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 821us/step
+for fold 3 optimal test mcc of 0.4544891164112698 validation mcc of 0
+
+validation metrics of:
+positives in data 23
+negatives in data 28
+net accuracy = 0.7647058823529411
+mcc = 0.5301448025829223
+========================================
+For dataset Endocrine Disruption_NR-aromatase_DBtargets.csv
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 1 optimal test mcc of 0.21057989315866538 validation mcc of 0.4563652383444983
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 2 optimal test mcc of 0.5523398999523437 validation mcc of 0.42761798705987897
+1/1 [==============================] - 0s 34ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 3 optimal test mcc of 0.31506301890630223 validation mcc of 0.5533985905294664
+
+validation metrics of:
+positives in data 15
+negatives in data 18
+net accuracy = 0.48484848484848486
+mcc = 0.0
+========================================
+For dataset Mutagenicity_Ames Mutagenicity_DBtargets.csv
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 938us/step
+for fold 1 optimal test mcc of 0 validation mcc of 0
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 907us/step
+for fold 2 optimal test mcc of 0.2817180849095055 validation mcc of 0.3391932831489051
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 987us/step
+for fold 3 optimal test mcc of 0.2196873875818734 validation mcc of 0.06523280730534423
+
+validation metrics of:
+positives in data 0
+negatives in data 0
+net accuracy = 0
+mcc = 0
+========================================
+For dataset Endocrine Disruption_NR-AhR_DBtargets.csv
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 1 optimal test mcc of 0.4020573523656682 validation mcc of 0.38154230979209985
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 13ms/step
+for fold 2 optimal test mcc of 0.48420012470625223 validation mcc of 0.16053821376921568
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 3 optimal test mcc of 0.7861572214682673 validation mcc of 0.20786985482077452
+
+validation metrics of:
+positives in data 22
+negatives in data 24
+net accuracy = 0.6739130434782609
+mcc = 0.3814882103344266
+========================================
+For dataset Cardiotoxicity_Cardiotoxicity-30_DBtargets.csv
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 1 optimal test mcc of 0.42289003161103106 validation mcc of 0.42600643361512924
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 2 optimal test mcc of 0.6666666666666666 validation mcc of 0
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 11ms/step
+for fold 3 optimal test mcc of 0.4642857142857143 validation mcc of 0
+
+validation metrics of:
+positives in data 15
+negatives in data 9
+net accuracy = 0.7083333333333334
+mcc = 0.3927922024247863
+========================================
+For dataset Endocrine Disruption_SR-p53_DBtargets.csv
+1/1 [==============================] - 0s 35ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 1 optimal test mcc of 0.5508021390374331 validation mcc of 0.12698374305804658
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 11ms/step
+for fold 2 optimal test mcc of 0.570544330734548 validation mcc of 0.3799802978286742
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 3 optimal test mcc of 0.25617376914899 validation mcc of 0.0
+
+validation metrics of:
+positives in data 19
+negatives in data 23
+net accuracy = 0.6904761904761905
+mcc = 0.378565498830142
+========================================
+For dataset Endocrine Disruption_NR-ER_DBtargets.csv
+3/3 [==============================] - 0s 1ms/step
+3/3 [==============================] - 0s 986us/step
+for fold 1 optimal test mcc of 0.34260661727023567 validation mcc of 0.4643270590580855
+3/3 [==============================] - 0s 1ms/step
+3/3 [==============================] - 0s 685us/step
+for fold 2 optimal test mcc of 0.4826170890658401 validation mcc of 0.27017976283782663
+2/2 [==============================] - 0s 2ms/step
+3/3 [==============================] - 0s 706us/step
+for fold 3 optimal test mcc of 0.5111799154458614 validation mcc of 0.2817328530613534
+
+validation metrics of:
+positives in data 36
+negatives in data 62
+net accuracy = 0.6224489795918368
+mcc = 0.2020970962315822
+========================================
+For dataset Cardiotoxicity_Cardiotoxicity-10_DBtargets.csv
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 861us/step
+for fold 1 optimal test mcc of 0.23904572186687875 validation mcc of 0.17180203318601237
+2/2 [==============================] - 0s 10ms/step
+2/2 [==============================] - 0s 877us/step
+for fold 2 optimal test mcc of 0.5629262517526437 validation mcc of -0.1835475440471551
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 917us/step
+for fold 3 optimal test mcc of 0.5028314888437672 validation mcc of 0.003529890592030656
+
+validation metrics of:
+positives in data 29
+negatives in data 25
+net accuracy = 0.6111111111111112
+mcc = 0.24006495872533354
+========================================
+For dataset Endocrine Disruption_NR-AR-LBD_DBtargets.csv
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 1 optimal test mcc of 0.6753246753246753 validation mcc of 0.5423695984263261
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 2 optimal test mcc of 0.4183300132670378 validation mcc of 0.6000124873825419
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 3 optimal test mcc of 0.8174603174603174 validation mcc of 0.4807501753725433
+
+validation metrics of:
+positives in data 17
+negatives in data 20
+net accuracy = 0.8918918918918919
+mcc = 0.7888596970330195
+========================================
+For dataset Endocrine Disruption_NR-PPAR-gamma_DBtargets.csv
+1/1 [==============================] - 0s 22ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 1 optimal test mcc of 0.55 validation mcc of 0
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 2 optimal test mcc of 0.35 validation mcc of 0
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 3 optimal test mcc of 0 validation mcc of 0
+
+validation metrics of:
+positives in data 7
+negatives in data 7
+net accuracy = 0.5714285714285714
+mcc = 0.17407765595569785

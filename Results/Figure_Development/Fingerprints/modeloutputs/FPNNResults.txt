@@ -1,0 +1,510 @@
+
+========================================
+For dataset SR-ATAD5_Morganfp.csv
+2/2 [==============================] - 0s 3ms/step
+2/2 [==============================] - 0s 827us/step
+for fold 1 optimal test mcc of 0.6431758808251548 validation mcc of 0.3922322702763681
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 896us/step
+for fold 2 optimal test mcc of 0.5155145946859746 validation mcc of 0.4735570640442169
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 837us/step
+for fold 3 optimal test mcc of 0.435 validation mcc of 0.5784074945196682
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 4 optimal test mcc of 0.30158730158730157 validation mcc of 0.4472135954999579
+2/2 [==============================] - 0s 3ms/step
+2/2 [==============================] - 0s 892us/step
+for fold 5 optimal test mcc of 0.28735244660769566 validation mcc of 0.42163702135578396
+
+validation metrics of:
+positives in data 51
+negatives in data 53
+net accuracy = 0.7596153846153846
+mcc = 0.5204516811898856
+========================================
+For dataset NR-AhR_Morganfp.csv
+5/5 [==============================] - 0s 1ms/step
+5/5 [==============================] - 0s 695us/step
+for fold 1 optimal test mcc of 0.5361333036005725 validation mcc of 0.46
+5/5 [==============================] - 0s 3ms/step
+5/5 [==============================] - 0s 685us/step
+for fold 2 optimal test mcc of 0.551015445038995 validation mcc of 0.4704083171859687
+5/5 [==============================] - 0s 857us/step
+5/5 [==============================] - 0s 632us/step
+for fold 3 optimal test mcc of 0.5330040553840283 validation mcc of 0.465781704427852
+5/5 [==============================] - 0s 4ms/step
+5/5 [==============================] - 0s 632us/step
+for fold 4 optimal test mcc of 0.5321641669416961 validation mcc of 0.4549152542372881
+5/5 [==============================] - 0s 1ms/step
+5/5 [==============================] - 0s 598us/step
+for fold 5 optimal test mcc of 0.5380952380952381 validation mcc of 0.5778283952984204
+
+validation metrics of:
+positives in data 148
+negatives in data 187
+net accuracy = 0.7850746268656716
+mcc = 0.5705114240311229
+========================================
+For dataset Hepatotoxicity_Morganfp.csv
+8/8 [==============================] - 0s 756us/step
+8/8 [==============================] - 0s 803us/step
+for fold 1 optimal test mcc of 0.45418633434205224 validation mcc of 0.35032448485149137
+8/8 [==============================] - 0s 659us/step
+8/8 [==============================] - 0s 563us/step
+for fold 2 optimal test mcc of 0.48374383424080136 validation mcc of 0.35441354799467134
+8/8 [==============================] - 0s 604us/step
+8/8 [==============================] - 0s 490us/step
+for fold 3 optimal test mcc of 0.45268663757863004 validation mcc of 0.3872723137560331
+8/8 [==============================] - 0s 2ms/step
+8/8 [==============================] - 0s 447us/step
+for fold 4 optimal test mcc of 0.3436856069281347 validation mcc of 0.3781359338351391
+8/8 [==============================] - 0s 678us/step
+8/8 [==============================] - 0s 497us/step
+for fold 5 optimal test mcc of 0.4294542524608862 validation mcc of 0.42290140816864585
+
+validation metrics of:
+positives in data 293
+negatives in data 285
+net accuracy = 0.7024221453287197
+mcc = 0.41026516352225684
+========================================
+For dataset Cardiotoxicity-5_Morganfp.csv
+4/4 [==============================] - 0s 906us/step
+4/4 [==============================] - 0s 798us/step
+for fold 1 optimal test mcc of 0.4678027878792997 validation mcc of 0.2492308004498208
+4/4 [==============================] - 0s 949us/step
+4/4 [==============================] - 0s 614us/step
+for fold 2 optimal test mcc of 0.4772068511198946 validation mcc of 0.3097573725546186
+4/4 [==============================] - 0s 960us/step
+4/4 [==============================] - 0s 819us/step
+for fold 3 optimal test mcc of 0.4678027878792997 validation mcc of 0.30850705806585615
+4/4 [==============================] - 0s 968us/step
+4/4 [==============================] - 0s 622us/step
+for fold 4 optimal test mcc of 0.48882701686587343 validation mcc of 0.44954746199884665
+4/4 [==============================] - 0s 903us/step
+4/4 [==============================] - 0s 626us/step
+for fold 5 optimal test mcc of 0.3222330522753963 validation mcc of 0.37697420773644663
+
+validation metrics of:
+positives in data 143
+negatives in data 167
+net accuracy = 0.6935483870967742
+mcc = 0.38162138987548994
+========================================
+For dataset NR-PPAR-gamma_Morganfp.csv
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 1 optimal test mcc of 0.600099198148979 validation mcc of 0.533001790889026
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 14ms/step
+for fold 2 optimal test mcc of 0.34097383755170546 validation mcc of 0.3860440160957241
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 3 optimal test mcc of 0.5554932406347733 validation mcc of 0.45226701686664544
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 4 optimal test mcc of 0.3234929166885531 validation mcc of 0.3574660633484163
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 5 optimal test mcc of 0.55 validation mcc of 0.24046373977128355
+
+validation metrics of:
+positives in data 36
+negatives in data 37
+net accuracy = 0.7534246575342466
+mcc = 0.5345278582597408
+========================================
+For dataset Cardiotoxicity-10_Morganfp.csv
+4/4 [==============================] - 0s 842us/step
+4/4 [==============================] - 0s 687us/step
+for fold 1 optimal test mcc of 0.3812452624810589 validation mcc of 0.34710810562170585
+4/4 [==============================] - 0s 884us/step
+4/4 [==============================] - 0s 1ms/step
+for fold 2 optimal test mcc of 0.48234438358940424 validation mcc of 0.349236740635355
+4/4 [==============================] - 0s 955us/step
+4/4 [==============================] - 0s 659us/step
+for fold 3 optimal test mcc of 0.40855791854023066 validation mcc of 0.4902205682482089
+4/4 [==============================] - 0s 832us/step
+4/4 [==============================] - 0s 674us/step
+for fold 4 optimal test mcc of 0.33110182889466505 validation mcc of 0.4951157386963296
+4/4 [==============================] - 0s 983us/step
+4/4 [==============================] - 0s 614us/step
+for fold 5 optimal test mcc of 0.4705962533382046 validation mcc of 0.3853307035500116
+
+validation metrics of:
+positives in data 190
+negatives in data 120
+net accuracy = 0.6838709677419355
+mcc = 0.3142734621478508
+========================================
+For dataset SR-MMP_Morganfp.csv
+6/6 [==============================] - 0s 724us/step
+6/6 [==============================] - 0s 491us/step
+for fold 1 optimal test mcc of 0.5952836019672005 validation mcc of 0.4541972990585293
+6/6 [==============================] - 0s 784us/step
+6/6 [==============================] - 0s 550us/step
+for fold 2 optimal test mcc of 0.6055743719775049 validation mcc of 0.5402864288560627
+6/6 [==============================] - 0s 744us/step
+6/6 [==============================] - 0s 1ms/step
+for fold 3 optimal test mcc of 0.38002736295523465 validation mcc of 0.5023153818963965
+6/6 [==============================] - 0s 819us/step
+6/6 [==============================] - 0s 647us/step
+for fold 4 optimal test mcc of 0.5736572862117751 validation mcc of 0.4581358460345214
+6/6 [==============================] - 0s 713us/step
+6/6 [==============================] - 0s 519us/step
+for fold 5 optimal test mcc of 0.651575722936976 validation mcc of 0.4991808207651263
+
+validation metrics of:
+positives in data 179
+negatives in data 243
+net accuracy = 0.7582938388625592
+mcc = 0.5008608532677481
+========================================
+For dataset Reproductive_Toxicity_Morganfp.csv
+
+1/1 [==============================] - 0s 22ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 1 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 2 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 3 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 4 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 5 optimal test mcc of 0 validation mcc of 0
+
+validation metrics of:
+positives in data 0
+negatives in data 0
+net accuracy = 0
+mcc = 0
+========================================
+For dataset NR-ER-LBD_Morganfp.csv
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 975us/step
+for fold 1 optimal test mcc of 0.5247368153167122 validation mcc of 0.35334967211447943
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 852us/step
+for fold 2 optimal test mcc of 0.4208513887366961 validation mcc of 0.4446141198869673
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 901us/step
+for fold 3 optimal test mcc of 0.3763493004997114 validation mcc of 0.5379519296838619
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 859us/step
+for fold 4 optimal test mcc of 0.42420801505049993 validation mcc of 0.40982808233692364
+2/2 [==============================] - 0s 4ms/step
+2/2 [==============================] - 0s 699us/step
+for fold 5 optimal test mcc of 0.6349812749303677 validation mcc of 0.3802528761961016
+
+validation metrics of:
+positives in data 70
+negatives in data 76
+net accuracy = 0.6301369863013698
+mcc = 0.25828342543771304
+========================================
+For dataset Carcinogenicity_Morganfp.csv
+3/3 [==============================] - 0s 1ms/step
+3/3 [==============================] - 0s 684us/step
+for fold 1 optimal test mcc of 0.29277002188455997 validation mcc of 0.36589300212854187
+3/3 [==============================] - 0s 1ms/step
+3/3 [==============================] - 0s 754us/step
+for fold 2 optimal test mcc of 0.3544008793513255 validation mcc of 0.4855072463768116
+3/3 [==============================] - 0s 1ms/step
+3/3 [==============================] - 0s 1ms/step
+for fold 3 optimal test mcc of 0.36882995975881117 validation mcc of 0.008213708208229555
+3/3 [==============================] - 0s 989us/step
+3/3 [==============================] - 0s 587us/step
+for fold 4 optimal test mcc of 0.35 validation mcc of 0.2625073660650015
+3/3 [==============================] - 0s 765us/step
+3/3 [==============================] - 0s 891us/step
+for fold 5 optimal test mcc of 0.3838260248329035 validation mcc of 0.12268281700245945
+
+validation metrics of:
+positives in data 102
+negatives in data 103
+net accuracy = 0.6487804878048781
+mcc = 0.2978546746688482
+========================================
+For dataset NR-AR_Morganfp.csv
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 804us/step
+for fold 1 optimal test mcc of 0.6002099318605758 validation mcc of 0.5424327604368505
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 991us/step
+for fold 2 optimal test mcc of 0.6564322015646866 validation mcc of 0.3611575592573076
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 776us/step
+for fold 3 optimal test mcc of 0.3595462477533374 validation mcc of 0.6082291325648282
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 897us/step
+for fold 4 optimal test mcc of 0.6371766120160759 validation mcc of 0.38697637169562726
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 826us/step
+for fold 5 optimal test mcc of 0.5496323529411765 validation mcc of 0.19611613513818404
+
+validation metrics of:
+positives in data 61
+negatives in data 64
+net accuracy = 0.712
+mcc = 0.44796757643182106
+========================================
+For dataset NR-ER_Morganfp.csv
+5/5 [==============================] - 0s 822us/step
+5/5 [==============================] - 0s 646us/step
+for fold 1 optimal test mcc of 0.21279437698364115 validation mcc of 0.1494979653269976
+5/5 [==============================] - 0s 767us/step
+5/5 [==============================] - 0s 594us/step
+for fold 2 optimal test mcc of 0.3192741208728346 validation mcc of 0.32541100054716715
+5/5 [==============================] - 0s 798us/step
+5/5 [==============================] - 0s 631us/step
+for fold 3 optimal test mcc of 0.2728070524916565 validation mcc of 0.28913668930179304
+5/5 [==============================] - 0s 1ms/step
+5/5 [==============================] - 0s 642us/step
+for fold 4 optimal test mcc of 0.23403088855661086 validation mcc of 0.26717598669417125
+5/5 [==============================] - 0s 853us/step
+5/5 [==============================] - 0s 604us/step
+for fold 5 optimal test mcc of 0.23757425355816877 validation mcc of 0.3172769300670386
+
+validation metrics of:
+positives in data 156
+negatives in data 212
+net accuracy = 0.6521739130434783
+mcc = 0.2696340790430041
+========================================
+For dataset SR-ARE_Morganfp.csv
+6/6 [==============================] - 0s 873us/step
+6/6 [==============================] - 0s 525us/step
+for fold 1 optimal test mcc of 0.3966490927477637 validation mcc of 0.43746788498211625
+6/6 [==============================] - 0s 734us/step
+6/6 [==============================] - 0s 585us/step
+for fold 2 optimal test mcc of 0.36318803161504065 validation mcc of 0.29387050581882157
+6/6 [==============================] - 0s 932us/step
+6/6 [==============================] - 0s 590us/step
+for fold 3 optimal test mcc of 0.4656609235506919 validation mcc of 0.2497226843295101
+6/6 [==============================] - 0s 758us/step
+6/6 [==============================] - 0s 599us/step
+for fold 4 optimal test mcc of 0.37941579616892507 validation mcc of 0.3277063367823473
+6/6 [==============================] - 0s 810us/step
+6/6 [==============================] - 0s 516us/step
+for fold 5 optimal test mcc of 0.2990154989356951 validation mcc of 0.14532002458770774
+
+validation metrics of:
+positives in data 181
+negatives in data 243
+net accuracy = 0.7264150943396226
+mcc = 0.4332986229744472
+========================================
+For dataset NR-AR-LBD_Morganfp.csv
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 797us/step
+for fold 1 optimal test mcc of 0.845756645578146 validation mcc of 0.6592443967173135
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 855us/step
+for fold 2 optimal test mcc of 0.6490229342872016 validation mcc of 0
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 777us/step
+for fold 3 optimal test mcc of 0.610170215847752 validation mcc of 0.7010681840159741
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 835us/step
+for fold 4 optimal test mcc of 0.7022915233992105 validation mcc of 0.4542199791661351
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 902us/step
+for fold 5 optimal test mcc of 0.6900721388834448 validation mcc of 0.6854365268376295
+
+validation metrics of:
+positives in data 47
+negatives in data 49
+net accuracy = 0.75
+mcc = 0.49978289188015634
+
+========================================
+For dataset Ames_Mutagenicity_Morganfp.csv
+19/19 [==============================] - 0s 569us/step
+19/19 [==============================] - 0s 520us/step
+for fold 1 optimal test mcc of 0.5966218454213833 validation mcc of 0.5470892998920918
+19/19 [==============================] - 0s 577us/step
+19/19 [==============================] - 0s 519us/step
+for fold 2 optimal test mcc of 0.6587526009704956 validation mcc of 0.5727605393717712
+19/19 [==============================] - 0s 573us/step
+19/19 [==============================] - 0s 550us/step
+for fold 3 optimal test mcc of 0.6148014511553934 validation mcc of 0.5628421478148414
+19/19 [==============================] - 0s 608us/step
+19/19 [==============================] - 0s 485us/step
+for fold 4 optimal test mcc of 0.5983319979898829 validation mcc of 0.5451613502165782
+19/19 [==============================] - 0s 584us/step
+19/19 [==============================] - 0s 509us/step
+for fold 5 optimal test mcc of 0.5740837649307148 validation mcc of 0.5782036061910832
+
+validation metrics of:
+positives in data 839
+negatives in data 658
+net accuracy = 0.8102872411489646
+mcc = 0.6183520659265372
+========================================
+For dataset Respiratory_Toxicity_Morganfp.csv
+4/4 [==============================] - 0s 875us/step
+4/4 [==============================] - 0s 560us/step
+for fold 1 optimal test mcc of 0.5301921151146685 validation mcc of 0.5050617635559528
+4/4 [==============================] - 0s 606us/step
+4/4 [==============================] - 0s 555us/step
+for fold 2 optimal test mcc of 0.6083687707686519 validation mcc of 0.39079525453870567
+4/4 [==============================] - 0s 806us/step
+4/4 [==============================] - 0s 654us/step
+for fold 3 optimal test mcc of 0.5617428020904646 validation mcc of 0.6146270300258889
+4/4 [==============================] - 0s 754us/step
+4/4 [==============================] - 0s 668us/step
+for fold 4 optimal test mcc of 0.5427286874242622 validation mcc of 0.5992047090185105
+4/4 [==============================] - 0s 751us/step
+4/4 [==============================] - 0s 643us/step
+for fold 5 optimal test mcc of 0.6334371819118734 validation mcc of 0.4782891247195602
+
+validation metrics of:
+positives in data 164
+negatives in data 106
+net accuracy = 0.7851851851851852
+mcc = 0.5706101921520604
+========================================
+For dataset SR-HSE_Morganfp.csv
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 882us/step
+for fold 1 optimal test mcc of 0.14710582305031603 validation mcc of 0.29855619650098675
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 861us/step
+for fold 2 optimal test mcc of 0.2997840524540494 validation mcc of 0.2894589299858291
+2/2 [==============================] - 0s 973us/step
+2/2 [==============================] - 0s 777us/step
+for fold 3 optimal test mcc of 0.2149791268384763 validation mcc of 0.4651997282767648
+2/2 [==============================] - 0s 996us/step
+2/2 [==============================] - 0s 793us/step
+for fold 4 optimal test mcc of 0.22815994153160196 validation mcc of 0.32825383889694687
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 5 optimal test mcc of 0.3233603982200519 validation mcc of 0.23664319132398462
+
+validation metrics of:
+positives in data 73
+negatives in data 79
+net accuracy = 0.6842105263157895
+mcc = 0.36815328548672105
+========================================
+For dataset NR-aromatase_Morganfp.csv
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 768us/step
+for fold 1 optimal test mcc of 0.47087020703483623 validation mcc of 0.4360491817317043
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 859us/step
+for fold 2 optimal test mcc of 0.3130032180229999 validation mcc of 0.293114340063394
+2/2 [==============================] - 0s 971us/step
+2/2 [==============================] - 0s 1ms/step
+for fold 3 optimal test mcc of 0.6273675653967149 validation mcc of 0.30641293851417056
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 868us/step
+for fold 4 optimal test mcc of 0.5238095238095238 validation mcc of 0.42833333333333334
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 932us/step
+for fold 5 optimal test mcc of 0.3341475562861124 validation mcc of 0.5305724993188893
+
+validation metrics of:
+positives in data 58
+negatives in data 63
+net accuracy = 0.71900826446281
+mcc = 0.4370552818828681
+========================================
+For dataset SR-p53_Morganfp.csv
+3/3 [==============================] - 0s 711us/step
+3/3 [==============================] - 0s 656us/step
+for fold 1 optimal test mcc of 0.44290394651811943 validation mcc of 0.35568760611205436
+3/3 [==============================] - 0s 1ms/step
+3/3 [==============================] - 0s 712us/step
+for fold 2 optimal test mcc of 0.31657341118126453 validation mcc of 0.26701366312662034
+3/3 [==============================] - 0s 1ms/step
+3/3 [==============================] - 0s 773us/step
+for fold 3 optimal test mcc of 0.4208455911540125 validation mcc of 0.20182735857600312
+3/3 [==============================] - 0s 669us/step
+3/3 [==============================] - 0s 687us/step
+for fold 4 optimal test mcc of 0.5658251521157384 validation mcc of 0.3959119526004887
+3/3 [==============================] - 0s 1ms/step
+3/3 [==============================] - 0s 610us/step
+for fold 5 optimal test mcc of 0.4674638049770115 validation mcc of 0.5438956545486096
+
+validation metrics of:
+positives in data 81
+negatives in data 89
+net accuracy = 0.6823529411764706
+mcc = 0.36511038089107956
+========================================
+For dataset Cardiotoxicity-1_Morganfp.csv
+4/4 [==============================] - 0s 1ms/step
+4/4 [==============================] - 0s 754us/step
+for fold 1 optimal test mcc of 0.4858650089722718 validation mcc of 0.5722633835193015
+4/4 [==============================] - 0s 1ms/step
+4/4 [==============================] - 0s 729us/step
+for fold 2 optimal test mcc of 0.4277364797394803 validation mcc of 0.5458104064524364
+4/4 [==============================] - 0s 1ms/step
+4/4 [==============================] - 0s 615us/step
+for fold 3 optimal test mcc of 0.5415317821600948 validation mcc of 0.6251477366762155
+4/4 [==============================] - 0s 891us/step
+4/4 [==============================] - 0s 554us/step
+for fold 4 optimal test mcc of 0.5546798494711438 validation mcc of 0.3190454672827682
+4/4 [==============================] - 0s 2ms/step
+
+4/4 [==============================] - 0s 776us/step
+for fold 5 optimal test mcc of 0.5727443617941211 validation mcc of 0.5507479070771424
+
+validation metrics of:
+positives in data 70
+negatives in data 240
+net accuracy = 0.8225806451612904
+mcc = 0.4385666810427817
+========================================
+For dataset Developmental_Toxicity_Morganfp.csv
+1/1 [==============================] - 0s 22ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 1 optimal test mcc of 0.25 validation mcc of 0
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 2 optimal test mcc of 0.16666666666666666 validation mcc of 0.3333333333333333
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 3 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 12ms/step
+for fold 4 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 5 optimal test mcc of 0.16666666666666666 validation mcc of 0
+
+validation metrics of:
+positives in data 8
+negatives in data 6
+net accuracy = 0.7142857142857143
+mcc = 0.4583333333333333
+========================================
+For dataset Cardiotoxicity-30_Morganfp.csv
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 804us/step
+for fold 1 optimal test mcc of 0.30618621784789724 validation mcc of 0.5454433219945198
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 978us/step
+for fold 2 optimal test mcc of 0.44865520319182595 validation mcc of 0.41982195471921996
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 889us/step
+for fold 3 optimal test mcc of 0.5516304347826086 validation mcc of 0.34341479757995447
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 858us/step
+for fold 4 optimal test mcc of 0.47576082676004205 validation mcc of 0.223606797749979
+2/2 [==============================] - 0s 3ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 5 optimal test mcc of 0.45767474338084746 validation mcc of 0.3634944749191028
+
+validation metrics of:
+positives in data 85
+negatives in data 53
+net accuracy = 0.6956521739130435
+mcc = 0.33429605127451517
