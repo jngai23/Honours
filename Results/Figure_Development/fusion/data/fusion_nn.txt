@@ -1,0 +1,326 @@
+========================================
+For dataset NR-ER-LBD_fusion.csv
+1/1 [==============================] - 0s 38ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 1 optimal test mcc of 0.5169842621131975 validation mcc of 0
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 2 optimal test mcc of 0.5819143739626463 validation mcc of 0.35
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 12ms/step
+for fold 3 optimal test mcc of 0.7302967433402215 validation mcc of 0.44702442937253495
+WARNING:tensorflow:5 out of the last 8 calls to <function Model.make_predict_function.<locals>.predict_function at 0x285ccd8a0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 9 calls to <function Model.make_predict_function.<locals>.predict_function at 0x285b202c0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+
+validation metrics of:
+positives in data 18
+negatives in data 21
+net accuracy = 0.6153846153846154
+mcc = 0.23809523809523808
+========================================
+For dataset Cardiotoxicity-1_fusion.csv
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 1 optimal test mcc of 0.38095238095238093 validation mcc of 0.65
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 2 optimal test mcc of 0.5006939628599933 validation mcc of 0.15811388300841897
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 3 optimal test mcc of 0.50709255283711 validation mcc of 0.0
+
+validation metrics of:
+positives in data 8
+negatives in data 12
+net accuracy = 0.8
+mcc = 0.5833333333333334
+========================================
+For dataset Cardiotoxicity-10_fusion.csv
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 869us/step
+for fold 1 optimal test mcc of 0.12226666573419243 validation mcc of 0.48416483186574427
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 796us/step
+for fold 2 optimal test mcc of 0.5099107734212939 validation mcc of 0.24777293758805188
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 928us/step
+for fold 3 optimal test mcc of 0.4714045207910317 validation mcc of 0.3083274062967549
+
+validation metrics of:
+positives in data 29
+negatives in data 25
+net accuracy = 0.6111111111111112
+mcc = 0.27713860723923783
+========================================
+For dataset NR-aromatase_fusion.csv
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 1 optimal test mcc of 0.20254787341673333 validation mcc of 0.09607689228305229
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 2 optimal test mcc of 0.4666666666666667 validation mcc of 0
+1/1 [==============================] - 0s 22ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 3 optimal test mcc of 0.5172935265326569 validation mcc of 0.13483997249264842
+
+validation metrics of:
+positives in data 15
+negatives in data 18
+net accuracy = 0.6060606060606061
+mcc = 0.21033353531577265
+========================================
+For dataset NR-ER_fusion.csv
+3/3 [==============================] - 0s 867us/step
+3/3 [==============================] - 0s 763us/step
+for fold 1 optimal test mcc of 0.33472777435825257 validation mcc of 0.2359071298478354
+3/3 [==============================] - 0s 1ms/step
+3/3 [==============================] - 0s 831us/step
+for fold 2 optimal test mcc of 0.4343553801592562 validation mcc of 0.3329001514305916
+2/2 [==============================] - 0s 1ms/step
+3/3 [==============================] - 0s 751us/step
+for fold 3 optimal test mcc of 0.5249204665959704 validation mcc of 0.29238572606442875
+
+validation metrics of:
+positives in data 36
+negatives in data 62
+net accuracy = 0.6836734693877551
+mcc = 0.2824205706049749
+========================================
+For dataset Hepatotoxicity_fusion.csv
+4/4 [==============================] - 0s 897us/step
+4/4 [==============================] - 0s 810us/step
+for fold 1 optimal test mcc of 0.3406207808346652 validation mcc of 0.31796985630179714
+4/4 [==============================] - 0s 1ms/step
+4/4 [==============================] - 0s 834us/step
+for fold 2 optimal test mcc of 0.5058520883605048 validation mcc of 0.27553692268048924
+4/4 [==============================] - 0s 962us/step
+4/4 [==============================] - 0s 948us/step
+for fold 3 optimal test mcc of 0.49905548215860973 validation mcc of 0.23185341789992953
+
+validation metrics of:
+positives in data 91
+negatives in data 73
+net accuracy = 0.6951219512195121
+mcc = 0.37793433028533574
+========================================
+For dataset SR-ARE_fusion.csv
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 1 optimal test mcc of 0.5765599193746258 validation mcc of 0.29982169389212354
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 2 optimal test mcc of 0.46054685728553363 validation mcc of 0.38575837490522974
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 3 optimal test mcc of 0.643719806763285 validation mcc of 0.41414141414141414
+
+validation metrics of:
+positives in data 37
+negatives in data 53
+net accuracy = 0.6666666666666666
+mcc = 0.2865326663635784
+========================================
+For dataset SR-HSE_fusion.csv
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 1 optimal test mcc of 0.5367394391967351 validation mcc of 0.325
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 2 optimal test mcc of 0.6038596398555418 validation mcc of 0.13241022442571243
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 3 optimal test mcc of 0.629940788348712 validation mcc of 0.24514516892273003
+
+validation metrics of:
+positives in data 12
+negatives in data 14
+net accuracy = 0.6153846153846154
+mcc = 0.23809523809523808
+========================================
+For dataset SR-ATAD5_fusion.csv
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 1 optimal test mcc of 0.4472135954999579 validation mcc of -0.28867513459481287
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 2 optimal test mcc of 0.14085904245475275 validation mcc of -0.125
+1/1 [==============================] - 0s 22ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 3 optimal test mcc of 0.09759000729485333 validation mcc of -0.35
+
+validation metrics of:
+positives in data 10
+negatives in data 11
+net accuracy = 0.8095238095238095
+mcc = 0.6330541649476573
+
+========================================
+For dataset NR-AR-LBD_fusion.csv
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 11ms/step
+for fold 1 optimal test mcc of 0.7566444492037343 validation mcc of 0.761306166786451
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 2 optimal test mcc of 0.4879500364742666 validation mcc of 0.3094361654486796
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 3 optimal test mcc of 0.7237925541034954 validation mcc of 0
+
+validation metrics of:
+positives in data 0
+negatives in data 0
+net accuracy = 0
+mcc = 0
+========================================
+For dataset NR-PPAR-gamma_fusion.csv
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 1 optimal test mcc of 0.35 validation mcc of 0
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 2 optimal test mcc of 0.15811388300841897 validation mcc of 0
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 3 optimal test mcc of 0.3 validation mcc of 0
+
+validation metrics of:
+positives in data 0
+negatives in data 0
+net accuracy = 0
+mcc = 0
+========================================
+For dataset NR-AR_fusion.csv
+2/2 [==============================] - 0s 996us/step
+2/2 [==============================] - 0s 928us/step
+for fold 1 optimal test mcc of 0.5771944181220839 validation mcc of 0.44342202660886976
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 968us/step
+for fold 2 optimal test mcc of 0.821271097469555 validation mcc of 0.6458333333333334
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 810us/step
+for fold 3 optimal test mcc of 0.447773662839645 validation mcc of 0.21437323142813605
+
+validation metrics of:
+positives in data 23
+negatives in data 28
+net accuracy = 0.7843137254901961
+mcc = 0.5631886954203473
+========================================
+For dataset Cardiotoxicity-5_fusion.csv
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 848us/step
+for fold 1 optimal test mcc of 0.2382212805718396 validation mcc of 0.26178515720236806
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 869us/step
+for fold 2 optimal test mcc of 0.3819510642945919 validation mcc of 0.2163179470681866
+2/2 [==============================] - 0s 863us/step
+2/2 [==============================] - 0s 838us/step
+for fold 3 optimal test mcc of 0.4134344328947824 validation mcc of 0.06214141987493709
+
+validation metrics of:
+positives in data 21
+negatives in data 33
+net accuracy = 0.6296296296296297
+mcc = 0.16243729953482985
+========================================
+For dataset SR-MMP_fusion.csv
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 1 optimal test mcc of 0.49691685466779095 validation mcc of 0.4265708360513437
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 2 optimal test mcc of 0.6096901081467765 validation mcc of 0.24417741571907922
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 2ms/step
+for fold 3 optimal test mcc of 0.6658679413030149 validation mcc of 0.5488604301969738
+
+validation metrics of:
+positives in data 32
+negatives in data 43
+net accuracy = 0.6933333333333334
+mcc = 0.37002374621484246
+========================================
+For dataset NR-AhR_fusion.csv
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 11ms/step
+for fold 1 optimal test mcc of 0.5620031593698284 validation mcc of 0.13731430681184992
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 2 optimal test mcc of 0.5361185533187384 validation mcc of 0.35180825027946283
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 3 optimal test mcc of 0.5894338862466559 validation mcc of 0.5773502691896257
+
+validation metrics of:
+positives in data 0
+negatives in data 0
+net accuracy = 0
+mcc = 0
+========================================
+For dataset SR-p53_fusion.csv
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 1 optimal test mcc of 0.49732620320855614 validation mcc of 0.4542199791661351
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 2 optimal test mcc of 0.4948812053487255 validation mcc of 0.16233926856661637
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 3 optimal test mcc of 0.675 validation mcc of 0.1685499656158105
+
+validation metrics of:
+positives in data 19
+negatives in data 23
+net accuracy = 0.6904761904761905
+mcc = 0.40046692808292794
+========================================
+For dataset Ames Mutagenicity_fusion.csv
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 1 optimal test mcc of 0.10569268128995475 validation mcc of 0.4939250955960438
+2/2 [==============================] - 0s 1ms/step
+2/2 [==============================] - 0s 1ms/step
+for fold 2 optimal test mcc of 0.3830744467411416 validation mcc of 0.31754264805429416
+2/2 [==============================] - 0s 2ms/step
+2/2 [==============================] - 0s 2ms/step
+for fold 3 optimal test mcc of 0.457245403556295 validation mcc of 0.20657055646692338
+
+validation metrics of:
+positives in data 18
+negatives in data 60
+net accuracy = 0.7948717948717948
+mcc = 0.3999747975931452
+========================================
+For dataset Cardiotoxicity-30_fusion.csv
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 1 optimal test mcc of 0.4472135954999579 validation mcc of 0.3337119062359573
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 2 optimal test mcc of 0.6666666666666666 validation mcc of 0.2698412698412698
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 9ms/step
+for fold 3 optimal test mcc of 0.7321428571428571 validation mcc of 0.3779644730092272
+
+validation metrics of:
+positives in data 15
+negatives in data 9
+net accuracy = 0.75
+mcc = 0.44971201491459334
+========================================
+For dataset Carcinogenicity_fusion.csv
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 1 optimal test mcc of 0 validation mcc of 0
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 2 optimal test mcc of 0.2041241452319315 validation mcc of 0.2993924754260479
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 10ms/step
+for fold 3 optimal test mcc of 0.5103545438827408 validation mcc of 0
+
+validation metrics of:
+positives in data 0
+negatives in data 0
+net accuracy = 0
+mcc = 0
