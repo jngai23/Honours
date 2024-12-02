@@ -1,4 +1,6 @@
 # Honours
 Honours Repository
-For viewing thesis results see Results->conglomdata
-For model storage and use see Addenum folder
+
+This repository contains all files relevant to James Ngai's Honours project concerning the toxicity prediction of drugs
+For the application of these toxicity prediction models see 'Addenum' folder
+All files outside of this folder are explained in the thesis
